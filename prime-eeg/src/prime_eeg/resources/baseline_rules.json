@@ -1,0 +1,942 @@
+{
+  "official": {
+    "official_nested_native_reselected": [
+      {
+        "held_out_independent_subject": "chb01+chb21",
+        "held_out_cases": [
+          "chb01",
+          "chb21"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb02",
+        "held_out_cases": [
+          "chb02"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb04",
+        "held_out_cases": [
+          "chb04"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb05",
+        "held_out_cases": [
+          "chb05"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 2.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb06",
+        "held_out_cases": [
+          "chb06"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb07",
+        "held_out_cases": [
+          "chb07"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb08",
+        "held_out_cases": [
+          "chb08"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb09",
+        "held_out_cases": [
+          "chb09"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb10",
+        "held_out_cases": [
+          "chb10"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb11",
+        "held_out_cases": [
+          "chb11"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb12",
+        "held_out_cases": [
+          "chb12"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb13",
+        "held_out_cases": [
+          "chb13"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb14",
+        "held_out_cases": [
+          "chb14"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb15",
+        "held_out_cases": [
+          "chb15"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb16",
+        "held_out_cases": [
+          "chb16"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb17",
+        "held_out_cases": [
+          "chb17"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb18",
+        "held_out_cases": [
+          "chb18"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb19",
+        "held_out_cases": [
+          "chb19"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb20",
+        "held_out_cases": [
+          "chb20"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb22",
+        "held_out_cases": [
+          "chb22"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb23",
+        "held_out_cases": [
+          "chb23"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      }
+    ],
+    "official_nested_common_reselected": [
+      {
+        "held_out_independent_subject": "chb01+chb21",
+        "held_out_cases": [
+          "chb01",
+          "chb21"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb02",
+        "held_out_cases": [
+          "chb02"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb04",
+        "held_out_cases": [
+          "chb04"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb05",
+        "held_out_cases": [
+          "chb05"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 2.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb06",
+        "held_out_cases": [
+          "chb06"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb07",
+        "held_out_cases": [
+          "chb07"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb08",
+        "held_out_cases": [
+          "chb08"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb09",
+        "held_out_cases": [
+          "chb09"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb10",
+        "held_out_cases": [
+          "chb10"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb11",
+        "held_out_cases": [
+          "chb11"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb12",
+        "held_out_cases": [
+          "chb12"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb13",
+        "held_out_cases": [
+          "chb13"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb14",
+        "held_out_cases": [
+          "chb14"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb15",
+        "held_out_cases": [
+          "chb15"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb16",
+        "held_out_cases": [
+          "chb16"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb17",
+        "held_out_cases": [
+          "chb17"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb18",
+        "held_out_cases": [
+          "chb18"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb19",
+        "held_out_cases": [
+          "chb19"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb20",
+        "held_out_cases": [
+          "chb20"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 0.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb22",
+        "held_out_cases": [
+          "chb22"
+        ],
+        "selected_configuration": {
+          "threshold": 0.8,
+          "minimum_event_seconds": 15.0
+        }
+      },
+      {
+        "held_out_independent_subject": "chb23",
+        "held_out_cases": [
+          "chb23"
+        ],
+        "selected_configuration": {
+          "threshold": 0.95,
+          "minimum_event_seconds": 1.0
+        }
+      }
+    ]
+  },
+  "raw_repaired": {
+    "native": [
+      {
+        "held_out_independent_subject": "chb01+chb21",
+        "held_out_cases": [
+          "chb01",
+          "chb21"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb02",
+        "held_out_cases": [
+          "chb02"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb04",
+        "held_out_cases": [
+          "chb04"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb05",
+        "held_out_cases": [
+          "chb05"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb06",
+        "held_out_cases": [
+          "chb06"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb07",
+        "held_out_cases": [
+          "chb07"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb08",
+        "held_out_cases": [
+          "chb08"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb09",
+        "held_out_cases": [
+          "chb09"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 1
+        }
+      },
+      {
+        "held_out_independent_subject": "chb10",
+        "held_out_cases": [
+          "chb10"
+        ],
+        "selected_configuration": {
+          "representation": "second_mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 3
+        }
+      },
+      {
+        "held_out_independent_subject": "chb11",
+        "held_out_cases": [
+          "chb11"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb12",
+        "held_out_cases": [
+          "chb12"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb13",
+        "held_out_cases": [
+          "chb13"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb14",
+        "held_out_cases": [
+          "chb14"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb15",
+        "held_out_cases": [
+          "chb15"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb16",
+        "held_out_cases": [
+          "chb16"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb17",
+        "held_out_cases": [
+          "chb17"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb18",
+        "held_out_cases": [
+          "chb18"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb19",
+        "held_out_cases": [
+          "chb19"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb20",
+        "held_out_cases": [
+          "chb20"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 1
+        }
+      },
+      {
+        "held_out_independent_subject": "chb22",
+        "held_out_cases": [
+          "chb22"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb23",
+        "held_out_cases": [
+          "chb23"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      }
+    ],
+    "common": [
+      {
+        "held_out_independent_subject": "chb01+chb21",
+        "held_out_cases": [
+          "chb01",
+          "chb21"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb02",
+        "held_out_cases": [
+          "chb02"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb04",
+        "held_out_cases": [
+          "chb04"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb05",
+        "held_out_cases": [
+          "chb05"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb06",
+        "held_out_cases": [
+          "chb06"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb07",
+        "held_out_cases": [
+          "chb07"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb08",
+        "held_out_cases": [
+          "chb08"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb09",
+        "held_out_cases": [
+          "chb09"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 1
+        }
+      },
+      {
+        "held_out_independent_subject": "chb10",
+        "held_out_cases": [
+          "chb10"
+        ],
+        "selected_configuration": {
+          "representation": "second_mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 3
+        }
+      },
+      {
+        "held_out_independent_subject": "chb11",
+        "held_out_cases": [
+          "chb11"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb12",
+        "held_out_cases": [
+          "chb12"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb13",
+        "held_out_cases": [
+          "chb13"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb14",
+        "held_out_cases": [
+          "chb14"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb15",
+        "held_out_cases": [
+          "chb15"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb16",
+        "held_out_cases": [
+          "chb16"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb17",
+        "held_out_cases": [
+          "chb17"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb18",
+        "held_out_cases": [
+          "chb18"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb19",
+        "held_out_cases": [
+          "chb19"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb20",
+        "held_out_cases": [
+          "chb20"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 1
+        }
+      },
+      {
+        "held_out_independent_subject": "chb22",
+        "held_out_cases": [
+          "chb22"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      },
+      {
+        "held_out_independent_subject": "chb23",
+        "held_out_cases": [
+          "chb23"
+        ],
+        "selected_configuration": {
+          "representation": "mean",
+          "threshold_mode": "absolute",
+          "threshold_value": 0.9,
+          "persistence": 2
+        }
+      }
+    ]
+  }
+}

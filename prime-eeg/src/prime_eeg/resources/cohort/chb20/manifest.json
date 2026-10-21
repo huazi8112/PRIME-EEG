@@ -1,0 +1,131 @@
+{
+  "subject": "chb20",
+  "window_seconds": 4,
+  "first_seizure_duration_seconds": 29,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb20_01",
+      "chb20_02",
+      "chb20_03",
+      "chb20_04",
+      "chb20_05",
+      "chb20_06",
+      "chb20_07"
+    ],
+    "calibration": [
+      "chb20_08",
+      "chb20_11"
+    ],
+    "evaluation": [
+      "chb20_17",
+      "chb20_21",
+      "chb20_22",
+      "chb20_23",
+      "chb20_25",
+      "chb20_26",
+      "chb20_27",
+      "chb20_28",
+      "chb20_29",
+      "chb20_30",
+      "chb20_31",
+      "chb20_34",
+      "chb20_59",
+      "chb20_60"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb20_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb20_08",
+      "role": "calibration"
+    },
+    {
+      "record": "chb20_11",
+      "role": "calibration"
+    },
+    {
+      "record": "chb20_17",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_21",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_22",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_23",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_25",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_26",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_27",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_28",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_29",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_30",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_31",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_34",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_59",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb20_60",
+      "role": "evaluation"
+    }
+  ]
+}

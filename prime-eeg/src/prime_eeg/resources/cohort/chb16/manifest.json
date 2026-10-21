@@ -1,0 +1,81 @@
+{
+  "subject": "chb16",
+  "window_seconds": 2,
+  "first_seizure_duration_seconds": 9,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb16_01",
+      "chb16_02",
+      "chb16_03",
+      "chb16_04",
+      "chb16_05",
+      "chb16_06",
+      "chb16_07"
+    ],
+    "calibration": [
+      "chb16_08",
+      "chb16_09"
+    ],
+    "evaluation": [
+      "chb16_12",
+      "chb16_13",
+      "chb16_15",
+      "chb16_19"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb16_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb16_08",
+      "role": "calibration"
+    },
+    {
+      "record": "chb16_09",
+      "role": "calibration"
+    },
+    {
+      "record": "chb16_12",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb16_13",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb16_15",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb16_19",
+      "role": "evaluation"
+    }
+  ]
+}

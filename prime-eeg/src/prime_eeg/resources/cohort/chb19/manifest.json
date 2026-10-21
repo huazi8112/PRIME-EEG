@@ -1,0 +1,150 @@
+{
+  "subject": "chb19",
+  "window_seconds": 10,
+  "first_seizure_duration_seconds": 78,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb19_01",
+      "chb19_02",
+      "chb19_03",
+      "chb19_04",
+      "chb19_05",
+      "chb19_06",
+      "chb19_07",
+      "chb19_08",
+      "chb19_09",
+      "chb19_10",
+      "chb19_11",
+      "chb19_12",
+      "chb19_13",
+      "chb19_14",
+      "chb19_15",
+      "chb19_16",
+      "chb19_17",
+      "chb19_18",
+      "chb19_19",
+      "chb19_20",
+      "chb19_21",
+      "chb19_22",
+      "chb19_23",
+      "chb19_24",
+      "chb19_25"
+    ],
+    "calibration": [
+      "chb19_26",
+      "chb19_27"
+    ],
+    "evaluation": []
+  },
+  "normals": [
+    {
+      "record": "chb19_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_08",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_09",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_10",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_11",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_12",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_13",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_14",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_15",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_16",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_17",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_18",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_19",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_20",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_21",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_22",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_23",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_24",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_25",
+      "role": "fit"
+    },
+    {
+      "record": "chb19_26",
+      "role": "calibration"
+    },
+    {
+      "record": "chb19_27",
+      "role": "calibration"
+    }
+  ]
+}

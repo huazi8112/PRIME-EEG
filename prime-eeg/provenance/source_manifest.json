@@ -1,0 +1,964 @@
+{
+  "method_identifier": "v48-strict-causal-frozen",
+  "extraction": "Function/class bodies and active constants retained; imports, paths and entry points reorganized. Documentation-only corrections are recorded in CHANGELOG.md.",
+  "original_sources": [
+    {
+      "file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408"
+    },
+    {
+      "file": "src/build_eeg_v45_causal_components.py",
+      "sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af"
+    },
+    {
+      "file": "src/build_eeg_v48_siena_strict_cache.py",
+      "sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1"
+    },
+    {
+      "file": "src/build_eeg_v48_strict_causal_cache.py",
+      "sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53"
+    },
+    {
+      "file": "src/explore_eeg_v45_causal_fusion.py",
+      "sha256": "3caef0c65ff958e1f071a0822f3c63617c3e184f0ed0f90c47ea591732cdce03"
+    },
+    {
+      "file": "src/explore_eeg_v45_incremental_prototype.py",
+      "sha256": "7e5e4ed8b6ca7d3b1c7bc244027e501f7743b77736938c6aa0479e65132a2f59"
+    },
+    {
+      "file": "src/run_eeg_v46_chb_only_nested.py",
+      "sha256": "217eb82e9220ea370120a3b73a89c0c140932c374c60745c51fd26b6fc4242f8"
+    },
+    {
+      "file": "src/run_eeg_v48_alert_gated_update.py",
+      "sha256": "cf4a862e189047de944676a582c4c9e1769a026c821465cb3646910cd552f9a7"
+    },
+    {
+      "file": "src/run_eeg_v48_elapsed_time_delay_20260909.py",
+      "sha256": "4865bfcedf3867ee00d2d86e9685873228bf4a5c060af033e916fa2972528022"
+    },
+    {
+      "file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf"
+    },
+    {
+      "file": "src/run_eeg_v48_strict_ablations.py",
+      "sha256": "417effce2ea2b808b9c9eaa44bca1d0b6662b9b608ae9c019c8a2a7871f2808a"
+    },
+    {
+      "file": "src/run_eeg_v48_timing_subject_audit.py",
+      "sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3"
+    },
+    {
+      "file": "src/siena_v36_common.py",
+      "sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6"
+    },
+    {
+      "file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684"
+    },
+    {
+      "file": "src/evaluate_seizuretransformer_official_nested.py",
+      "sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3"
+    },
+    {
+      "file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70"
+    },
+    {
+      "file": "src/run_eeg_v47_causal_sequential_repair_20260909.py",
+      "sha256": "29407895aca7a73f0e6b1faae7c8725b01dd4dd157180b500b871c5b55f09b47"
+    }
+  ],
+  "symbols": [
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "COMMON_CHANNELS",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 20,
+      "syntax_sha256": "a65a86917bedcb66809f0a586f1932fec61cec3cb0e0883faf82526cf7bfe45d"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "BANDS",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 25,
+      "syntax_sha256": "69f92dc49c21f778188a129b2a94e8e918bba927f42ebc47c17d44c4b590e152"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "Seizure",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 34,
+      "syntax_sha256": "d8c541b30a882cfd80c0dca56d92f2a622106ff4f7334a83de7c6014631b7cbd"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "parse_summary",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 42,
+      "syntax_sha256": "729160618e5b5d2a482cd4af497ac359cd28db653972f32dacf8c76081282549"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "summary_file_order",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 68,
+      "syntax_sha256": "fdd9ce4f7ffd2095779f179fdcca0423ec4473540b3ecca55ae498f77ab203b4"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "fast_edf_duration",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 82,
+      "syntax_sha256": "bd420cb2d8de280a3326e9bce700a23db9436b6b5445ac014c89f7cfbdb8b5c7"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "read_file_interval",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 92,
+      "syntax_sha256": "bb960f6b27575e03d55590c74186b95996af0e99d2c02393928338a41b2b60d4"
+    },
+    {
+      "public_module": "src/prime_eeg/features.py",
+      "symbol": "extract_fast_features",
+      "original_file": "src/build_eeg_chb16_multiresolution_v32.py",
+      "original_file_sha256": "38cd11a38e7ee2f3e0ec1935e635604f7e6bb42e24b921b6edebfc489a750408",
+      "original_first_line": 151,
+      "syntax_sha256": "cc0d710f47889ab348ccd1a52cd0beecc9639a156c96a8bda131e2bf40999d97"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "robust_parameters",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 42,
+      "syntax_sha256": "accabd6697d0a9411bdcd507dad01bb6568ab397f7f64bc9a6099c067fef6e21"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "align",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 50,
+      "syntax_sha256": "b810c3ea4fd6e32f6df1a659e6bd9773493072824d93d1f135f7f36c7227e535"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "SubjectSource",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 55,
+      "syntax_sha256": "daa2cd02e410209bbf87681e20698dc1f77c3a294b84cbe6ef583ffec9028145"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "load_source",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 70,
+      "syntax_sha256": "60e33a27e4a4f28103fdb4ed3cb41b2b33af9a4898f0290b2ed7a2eab3f8a4c7"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "capped_rows",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 112,
+      "syntax_sha256": "d9e19c1b89e39ab7ff9503d3e370939e67885641e5fd392f55f3349a1e0fe973"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "PrototypeModel",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 207,
+      "syntax_sha256": "cdae43eca1af780e34a942ce4e945cc94ea880bfb22cfe4896cdf77036be7bea"
+    },
+    {
+      "public_module": "src/prime_eeg/representation.py",
+      "symbol": "fit_prototype",
+      "original_file": "src/build_eeg_v45_causal_components.py",
+      "original_file_sha256": "6c268230e358f3a79bf5b857578e2279a0d0ca0f00320fb635b15ab025f824af",
+      "original_first_line": 234,
+      "syntax_sha256": "8365d225286b34be82237ff44e92131e8e875b19ea34f0447647dd8d9bc62160"
+    },
+    {
+      "public_module": "src/prime_eeg/memory.py",
+      "symbol": "IncrementalRule",
+      "original_file": "src/explore_eeg_v45_incremental_prototype.py",
+      "original_file_sha256": "7e5e4ed8b6ca7d3b1c7bc244027e501f7743b77736938c6aa0479e65132a2f59",
+      "original_first_line": 20,
+      "syntax_sha256": "6f15774f8e7c4ed156f86aa3c462238ae585b64ef4c842b908654a8f5b4a31a7"
+    },
+    {
+      "public_module": "src/prime_eeg/memory.py",
+      "symbol": "load_event_positives",
+      "original_file": "src/explore_eeg_v45_incremental_prototype.py",
+      "original_file_sha256": "7e5e4ed8b6ca7d3b1c7bc244027e501f7743b77736938c6aa0479e65132a2f59",
+      "original_first_line": 28,
+      "syntax_sha256": "4467f87f7316b4339674719df1a329b5f1451439b65a57d5afdd025a03043083"
+    },
+    {
+      "public_module": "src/prime_eeg/memory.py",
+      "symbol": "build_incremental_payload",
+      "original_file": "src/explore_eeg_v45_incremental_prototype.py",
+      "original_file_sha256": "7e5e4ed8b6ca7d3b1c7bc244027e501f7743b77736938c6aa0479e65132a2f59",
+      "original_first_line": 41,
+      "syntax_sha256": "ee711c1d6651cabbb8706abaa5f9eb6aff09cb88bf5e0eeea012e3854f7c8a2f"
+    },
+    {
+      "public_module": "src/prime_eeg/memory.py",
+      "symbol": "variable_hysteresis",
+      "original_file": "src/explore_eeg_v45_incremental_prototype.py",
+      "original_file_sha256": "7e5e4ed8b6ca7d3b1c7bc244027e501f7743b77736938c6aa0479e65132a2f59",
+      "original_first_line": 119,
+      "syntax_sha256": "9cb1bb1ea4650d7d4062207338b8f5ab5eec6ddc1c41a2ac831e831f0d4d38a4"
+    },
+    {
+      "public_module": "src/prime_eeg/metrics.py",
+      "symbol": "aggregate",
+      "original_file": "src/run_eeg_v46_chb_only_nested.py",
+      "original_file_sha256": "217eb82e9220ea370120a3b73a89c0c140932c374c60745c51fd26b6fc4242f8",
+      "original_first_line": 50,
+      "syntax_sha256": "a42f70bac3879d83442b14750a4c061096c2a61a9ba805191f4614f3e72ac1a5"
+    },
+    {
+      "public_module": "src/prime_eeg/metrics.py",
+      "symbol": "configuration_key",
+      "original_file": "src/run_eeg_v46_chb_only_nested.py",
+      "original_file_sha256": "217eb82e9220ea370120a3b73a89c0c140932c374c60745c51fd26b6fc4242f8",
+      "original_first_line": 41,
+      "syntax_sha256": "4f78ed1982ff763f6f224916d9fab9ecef14e4b351092fb2de11afc20a571951"
+    },
+    {
+      "public_module": "src/prime_eeg/metrics.py",
+      "symbol": "selection_key",
+      "original_file": "src/run_eeg_v46_chb_only_nested.py",
+      "original_file_sha256": "217eb82e9220ea370120a3b73a89c0c140932c374c60745c51fd26b6fc4242f8",
+      "original_first_line": 78,
+      "syntax_sha256": "90f82bcc9f00ec8cf20025d45cd2060cd937bd94ff12e9ea83117b42c07a407e"
+    },
+    {
+      "public_module": "src/prime_eeg/metrics.py",
+      "symbol": "passes_targets",
+      "original_file": "src/run_eeg_v46_chb_only_nested.py",
+      "original_file_sha256": "217eb82e9220ea370120a3b73a89c0c140932c374c60745c51fd26b6fc4242f8",
+      "original_first_line": 139,
+      "syntax_sha256": "14e7639f8beb18cc231eddae71d8ec5c20f1768da8cb020a79e894e8bc3a44ca"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "independent_subject",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 66,
+      "syntax_sha256": "075a563cace84536ab49397bb51b9b239313936c595f28f630a3e8ef7d1b3ca1"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "causal_alarm_events",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 71,
+      "syntax_sha256": "6655218d99847e9738246a915bd1c15857fab3225ed6f93ad1ca1d5aab6b5ea2"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "overlaps_available_alarm",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 96,
+      "syntax_sha256": "639a014b1a1de7029f5338429ce9849fe902808d976483351d1a4b216ef24037"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "evaluate_timing_corrected",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 105,
+      "syntax_sha256": "47007b31c4882251b841f110fcbdcc8cea91d3da247f2c0c013c1d6a77b26a22"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "aggregate_independent",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 188,
+      "syntax_sha256": "ff61c3d59f1d88be490ea8d8194d860e441877e7a6d37da1d45cebfcc91ded2c"
+    },
+    {
+      "public_module": "src/prime_eeg/evaluation.py",
+      "symbol": "rule",
+      "original_file": "src/run_eeg_v48_timing_subject_audit.py",
+      "original_file_sha256": "1f2b9e249caee951dba1b5ce5dea26ec70d5864554a45c4b78933c96eb4b11f3",
+      "original_first_line": 246,
+      "syntax_sha256": "11ec96b7c61371ae06b8d7334db28b2cb39cd266eeb46d726907c05251af3479"
+    },
+    {
+      "public_module": "src/prime_eeg/persistence.py",
+      "symbol": "persistent",
+      "original_file": "src/explore_eeg_v45_causal_fusion.py",
+      "original_file_sha256": "3caef0c65ff958e1f071a0822f3c63617c3e184f0ed0f90c47ea591732cdce03",
+      "original_first_line": 123,
+      "syntax_sha256": "e042ae805d3b1ce3f3d254234bf4f4fe9becce30a387259033e78cef17440b99"
+    },
+    {
+      "public_module": "src/prime_eeg/ablations.py",
+      "symbol": "available_indices",
+      "original_file": "src/run_eeg_v48_strict_ablations.py",
+      "original_file_sha256": "417effce2ea2b808b9c9eaa44bca1d0b6662b9b608ae9c019c8a2a7871f2808a",
+      "original_first_line": 58,
+      "syntax_sha256": "4e3173e043aa8ba72854e4461fb16011bd3558ed748f25ef354c247f22895a7b"
+    },
+    {
+      "public_module": "src/prime_eeg/ablations.py",
+      "symbol": "build_payload",
+      "original_file": "src/run_eeg_v48_strict_ablations.py",
+      "original_file_sha256": "417effce2ea2b808b9c9eaa44bca1d0b6662b9b608ae9c019c8a2a7871f2808a",
+      "original_first_line": 75,
+      "syntax_sha256": "e20216e3aec59aeb3dc59f286232ebcdc0bb321759572b768c4106b0812ff415"
+    },
+    {
+      "public_module": "src/prime_eeg/ablations.py",
+      "symbol": "no_hysteresis_evaluate",
+      "original_file": "src/run_eeg_v48_strict_ablations.py",
+      "original_file_sha256": "417effce2ea2b808b9c9eaa44bca1d0b6662b9b608ae9c019c8a2a7871f2808a",
+      "original_first_line": 162,
+      "syntax_sha256": "b1ba8403e0d23cb8cc3d2d04b32180321a6fbe266674e4ff46ad48a24fa1a0f9"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "filter_design",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 44,
+      "syntax_sha256": "12d1bab7a619e9463e091606cddde7a43af48d9c2db53f2b1297f78e32e7a49f"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "causal_filter_downsample",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 56,
+      "syntax_sha256": "6d3ce5d3ba56345230e606e0e9987e6856d5926ff30488a2bd9b96d7713b810b"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "edf_metadata",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 70,
+      "syntax_sha256": "8dbed0d457a52ab4a267bd70e5c5956197556abe499644e271c2d6e3b72824a6"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "is_contiguous",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 82,
+      "syntax_sha256": "5379323ef532406e7d396b4247bad245bb86ae34b6c3e5806d3686ed442131ac"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "load_record",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 88,
+      "syntax_sha256": "882ed39e44726572d8b93e1874ff57d5580bb9c1c4a28c72bfb6bcfc0c3da07e"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "save_feature_file",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 100,
+      "syntax_sha256": "4fbbe2278818acbee8455879d8c749c8956c22350f0a4faa0155e4f382397f27"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "load_cached_record",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 117,
+      "syntax_sha256": "b7b4de4987711765b2d889a30e729d944b660380cff780492a1673cc5f4a18a5"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "future_perturbation_test",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 127,
+      "syntax_sha256": "d0abaf75ba0984071aaaf096742e3e92a98d6d1d999e924b5081e34b961df7d1"
+    },
+    {
+      "public_module": "src/prime_eeg/preprocessing.py",
+      "symbol": "build_subject",
+      "original_file": "src/build_eeg_v48_strict_causal_cache.py",
+      "original_file_sha256": "b964357fbe7732dbc969bacee41c9e903a6c03c07e63e6d477cedd9369ff0e53",
+      "original_first_line": 164,
+      "syntax_sha256": "87b2d8222ecd05cdc83406e632f556b1d73afb5af213c2960c0d31f385a2dc76"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "predicted_interval",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 58,
+      "syntax_sha256": "8c26c03cdc3e633a23bf20ce390e6de7f461c96198e2d6439474b0cdc1dc11df"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "union",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 66,
+      "syntax_sha256": "ee371cc12a2b9ea88e716f2763035cc9bf38e5defb847e40781b01864586fd68"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "total_duration",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 78,
+      "syntax_sha256": "150d00bbcc75e0b8cd1e13ee0ee8ac56ea0f1f3ce28d0262e67ca1699dd21706"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "intersection_duration",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 82,
+      "syntax_sha256": "374feb779848715311458779807625f2a5be66fbcf074ea0637af1a751024210"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "match_prediction",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 97,
+      "syntax_sha256": "f5d9e810ba8746aeafb54cd1573c677e229433bc4367384acd63b18d81924d56"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "evaluate",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 118,
+      "syntax_sha256": "d53f1df3b70723245d2fe4998c17adecd65439340d8f419018adbee0f6303dfb"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "aggregate",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 227,
+      "syntax_sha256": "633f4bec6aa77fec32bbd581930fa5ee449740abf93538ab51f2d3053297850e"
+    },
+    {
+      "public_module": "src/prime_eeg/sensitivity.py",
+      "symbol": "prepare_source",
+      "original_file": "src/run_eeg_v48_postfreeze_supplement.py",
+      "original_file_sha256": "16d1b25ecbe5396b3a1f6701f6046375bf5864c9b62ebcfebbbd0c02feb598cf",
+      "original_first_line": 274,
+      "syntax_sha256": "32fbfe6e670779c5c24db026cd23a7ad1628b17b99dc804cc810a5ee3640026e"
+    },
+    {
+      "public_module": "src/prime_eeg/elapsed.py",
+      "symbol": "record_clock",
+      "original_file": "src/run_eeg_v48_elapsed_time_delay_20260909.py",
+      "original_file_sha256": "4865bfcedf3867ee00d2d86e9685873228bf4a5c060af033e916fa2972528022",
+      "original_first_line": 147,
+      "syntax_sha256": "cd7be98565055f187cd775a7ea2e30a5be377fa387ccf670183096f657e752de"
+    },
+    {
+      "public_module": "src/prime_eeg/elapsed.py",
+      "symbol": "release_schedule",
+      "original_file": "src/run_eeg_v48_elapsed_time_delay_20260909.py",
+      "original_file_sha256": "4865bfcedf3867ee00d2d86e9685873228bf4a5c060af033e916fa2972528022",
+      "original_first_line": 192,
+      "syntax_sha256": "de8e2db2f2145d32e9807d2b35f366c863807993548d36a4ab7ada5777feff71"
+    },
+    {
+      "public_module": "src/prime_eeg/elapsed.py",
+      "symbol": "elapsed_payload",
+      "original_file": "src/run_eeg_v48_elapsed_time_delay_20260909.py",
+      "original_file_sha256": "4865bfcedf3867ee00d2d86e9685873228bf4a5c060af033e916fa2972528022",
+      "original_first_line": 220,
+      "syntax_sha256": "2336655a2a5ae8d03f548102e8a300a4a508bbd78a288ba7b1f5ea9759e226b0"
+    },
+    {
+      "public_module": "src/prime_eeg/elapsed.py",
+      "symbol": "cluster_bootstrap",
+      "original_file": "src/run_eeg_v48_elapsed_time_delay_20260909.py",
+      "original_file_sha256": "4865bfcedf3867ee00d2d86e9685873228bf4a5c060af033e916fa2972528022",
+      "original_first_line": 326,
+      "syntax_sha256": "ac791221e1f82bb761157688ab34b23339df5ac6d7cdca63defde8fce1608f65"
+    },
+    {
+      "public_module": "src/prime_eeg/alert_gated.py",
+      "symbol": "alert_gated_subject",
+      "original_file": "src/run_eeg_v48_alert_gated_update.py",
+      "original_file_sha256": "cf4a862e189047de944676a582c4c9e1769a026c821465cb3646910cd552f9a7",
+      "original_first_line": 55,
+      "syntax_sha256": "ea5159092d1692f13b2e152b55babdc23347e09283d6685f5c4ed95c39945f38"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "SienaEvent",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 59,
+      "syntax_sha256": "158904d65148bcb3c592523b67600e02691d7feaa626cee6630e0d1c8f856360"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "branch_seconds_v35",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 68,
+      "syntax_sha256": "3a934faef37d7484f008fdc851c7478e3dba49784907b294f3526c12e3f58788"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "edf_module",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 76,
+      "syntax_sha256": "c499caabd15fb2ad60183a432ceca2b8a8147328c6b57e79d3d44f52b28f5dca"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "subject_directories",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 90,
+      "syntax_sha256": "3c40770bcad5310bd77e4ecbc2e5713c160696beeda1daf3e02476d415a95d7f"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "natural_record_key",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 94,
+      "syntax_sha256": "253829e9b2adfce1297499781f5e85fd977177a12d31770a19a882272802d65f"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "edf_order",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 103,
+      "syntax_sha256": "d1df5d919c5cf091ddc2c8da4271fd057da976be6dc458ed776cac61b461ecd6"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "canonical_electrode",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 107,
+      "syntax_sha256": "2953f5a8a80ce94f03bffb66958415210cb7f22aa74a24cf18cc3a6aa01a80cf"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "electrode_indices",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 113,
+      "syntax_sha256": "2d456efc0d87beec3934b433891a1c94f18cd7b224f844463a68711d11da38b7"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "edf_duration",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 126,
+      "syntax_sha256": "089173bd535fad0eb1a4af1205c69987004361ac0d6919f3a7e817d101394240"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "read_bipolar_interval",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 134,
+      "syntax_sha256": "295b36e066090380242fecf4f750df47d29efed0275996fc865c055c69ef2f20"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "clock_seconds",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 232,
+      "syntax_sha256": "a5a9ec4f9bb35c0ad4ca38d83eb6bf93c2b92a90ac129d665df5ce342c77cfaf"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "relative_clock",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 243,
+      "syntax_sha256": "73133c3ad80929d6a60273b34e0bc07e45e268baf861e1769d7282b749bdaf17"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "resolve_annotation_file",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 250,
+      "syntax_sha256": "0746aca48294dfcbbcf7e41737fad49de155964ff9c75971e1b9854a278246a5"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "event_from_block",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 281,
+      "syntax_sha256": "f48114b37e7f188c3777494573c130a3fed85393bb1258a4a0180173e177135d"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "annotation_path",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 303,
+      "syntax_sha256": "bfd91cb0f4bbb64b64e81e43c0e17649be9b8f6d2afce731f126db3642d5f779"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "parse_first_event_only",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 307,
+      "syntax_sha256": "2a50c974c2aac6e422f2b72def2fc890998534ca5cb33964a6d52db43a4addba"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "parse_all_events",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 334,
+      "syntax_sha256": "b6d0eb5284b9da6afdb694b0379e168100cc2cc9d07c53b9fabdba1966208087"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_common.py",
+      "symbol": "initialization_plan",
+      "original_file": "src/siena_v36_common.py",
+      "original_file_sha256": "e3733d72f9c6ee3b824d8ecfc094f9703125c2c69a7333df81d400099a0cd7b6",
+      "original_first_line": 370,
+      "syntax_sha256": "8b4a4ec391e8024906608113f1592ccb58ca75818512cde2e01c1493b4836907"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "filter_design",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 75,
+      "syntax_sha256": "6a352cd9f70503fd015f9751b0a90657ec0aa6b95a9e8ad714396a5f903ec583"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "causal_filter_downsample",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 85,
+      "syntax_sha256": "b1736fbdd535ae6f84d078db12e46140331b4e4f5d8391a1f91381206634d845"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "edf_metadata",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 97,
+      "syntax_sha256": "60204bd78faed4a14fd70f0581f1ab2dd9cf507109a3cdbc082f77be13ff5390"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "is_contiguous",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 108,
+      "syntax_sha256": "7b1ff5a0c92bb80da4eba29e3842819c06a1c8156b46419982855c0b1f6e6f71"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "future_perturbation_test",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 114,
+      "syntax_sha256": "e8007f41dd908865e467f39064a4644e452a84c8916ea0ffdb6a7b1fd41b2746"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "extract_strict_record",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 148,
+      "syntax_sha256": "23849877f7531704be704ed0c7baceeb114e4c8cd6d2689c3cb78a83667c65b9"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "save_record",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 187,
+      "syntax_sha256": "3ee0cb0df503ce0ad5ae85a5f7c418e3c30aab9ff5a98159abbb683748a7e8b8"
+    },
+    {
+      "public_module": "src/prime_eeg/siena_preprocessing.py",
+      "symbol": "build_subject",
+      "original_file": "src/build_eeg_v48_siena_strict_cache.py",
+      "original_file_sha256": "400cd5bed6169383e099aaf3a711d6cb2e3c34c1764101472814dfa5e4d199d1",
+      "original_first_line": 204,
+      "syntax_sha256": "2eb284bb922b525aabced90b58137119228a0b838182b082f4a58d1a8b3880a4"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "RAW_FEATURES",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 32,
+      "syntax_sha256": "501b16887e92158040fb0d8f624df6f01aa5b4e32bed37a1c839a6b37340d080"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "Rule",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 38,
+      "syntax_sha256": "02a63b204d4ee89787c50f6fb65b30e33f5d37590e41ab0b03ba5408e7018f13"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "load_score",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 62,
+      "syntax_sha256": "aa971e03a2125c7810a9703b6ed69e6617f6348568c14d5e128bd671df3ef915"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "feature_matrix",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 73,
+      "syntax_sha256": "ed233921f3091da459993c560a16d5c11c069b161b9e7f6660211735885e1431"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "role_values",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 77,
+      "syntax_sha256": "a276ea1ed023028591a807c061a1651bd48324f3084f6ba77c489b956cbaf3cc"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "robust_location_scale",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 101,
+      "syntax_sha256": "044ee68c5831b10a7931ab5d7927afe91a0b2127293a59bae41d319b7c470105"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "unit_direction",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 110,
+      "syntax_sha256": "623a5d53788d4293def0c01655c4d18e41821cb7d2f51f52463f044070be34e6"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "max_z",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 120,
+      "syntax_sha256": "5aee6d33997c94669da2fc6a825ae23824b0f6d97f7e4412a4682fad305275b4"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "persistent",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 209,
+      "syntax_sha256": "e042ae805d3b1ce3f3d254234bf4f4fe9becce30a387259033e78cef17440b99"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "threshold_array",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 241,
+      "syntax_sha256": "472026ae7175acb931ce21b814acca9bfadbaca9cdfbecc2d0936c69984c2b24"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "representation_values",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 255,
+      "syntax_sha256": "578ed5af0eb187fdcab0208cc747ea1bde99dae512090554e6d1102f026bbe82"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "configuration_key",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 342,
+      "syntax_sha256": "bf26caada94469d10d00772c4de7ede11d895005669238b6d4decafdaf78bc23"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "selection_key",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 351,
+      "syntax_sha256": "5244cdf6911f73d7940031faa3701932d1d4af8f9f51b14e7ea24d8a78fd25c4"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_raw.py",
+      "symbol": "rules",
+      "original_file": "src/evaluate_seizuretransformer_chb_nested.py",
+      "original_file_sha256": "613c28cea65aeb79224104326c0cc7c32deac134b42b53926f99d54278542684",
+      "original_first_line": 375,
+      "syntax_sha256": "a02b255bd4ab7cdb097b28abe542a4a657ecfe3871dfdf4013ec7b84954ab7e3"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_official.py",
+      "symbol": "Rule",
+      "original_file": "src/evaluate_seizuretransformer_official_nested.py",
+      "original_file_sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3",
+      "original_first_line": 34,
+      "syntax_sha256": "adb3d7f62d4ff24aa7fbe0ab56fa8ec135a789ad348ce36fd845bfb392114a16"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_official.py",
+      "symbol": "load_record",
+      "original_file": "src/evaluate_seizuretransformer_official_nested.py",
+      "original_file_sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3",
+      "original_first_line": 56,
+      "syntax_sha256": "7fb3f58b50c8f57e9ff44208e43a3c45146da9ae426a6d470406bd74490381ee"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_official.py",
+      "symbol": "threshold_key",
+      "original_file": "src/evaluate_seizuretransformer_official_nested.py",
+      "original_file_sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3",
+      "original_first_line": 87,
+      "syntax_sha256": "f5a02dcf32f3b89426fb520cbcac1b1bafa1b56d032fc705a75def03a0a730ca"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_official.py",
+      "symbol": "make_payload",
+      "original_file": "src/evaluate_seizuretransformer_official_nested.py",
+      "original_file_sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3",
+      "original_first_line": 117,
+      "syntax_sha256": "3279a4422279efba18ecaed09f451dbfc3142e18f522d7c152ef13fb0b82aac8"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_official.py",
+      "symbol": "selection_key",
+      "original_file": "src/evaluate_seizuretransformer_official_nested.py",
+      "original_file_sha256": "4021894661c23bcd3d17f8612697db7427e27c43d1bb0c600ec380b41663f6c3",
+      "original_first_line": 215,
+      "syntax_sha256": "525473f0c2f28ff41161221fa504aed229d34203121758e3150a9d6eb321db7f"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "union",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 49,
+      "syntax_sha256": "61568b5549891e9e55eb524fd4d02e56b5aacea51a1ec207a21310e7aed3c42b"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "intersect",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 55,
+      "syntax_sha256": "691e3ab1af630c59a3a250136a6ba8d553d6de1790db6c5d5df66435a5167e3b"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "duration",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 63,
+      "syntax_sha256": "b3a0dea8bba3bb45a42b396394ae8758415f64e2e0762fcbd73e5e786b5ce63e"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "in_exposure",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 64,
+      "syntax_sha256": "6b48fee160caea2abec176c20e73e31bc0830b498b260fbb5544eb353b89a7cd"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "clusters",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 69,
+      "syntax_sha256": "ff9c761381b8dd5ebe427b53264298a42c20fa90b9cc3dc908cf0d923b4efa14"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "score",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 79,
+      "syntax_sha256": "013c6522e8377f1f3037a0fb25e047ca7bf3468e5b56c4e3fa635da06de45982"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "case_records",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 174,
+      "syntax_sha256": "e48ad8060f925a0276d58aba5c6c4863a0041dcff98b99b37fd6e95c098bbac3"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "raw_points",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 180,
+      "syntax_sha256": "7527603cdd72811ff999ec22b9c8d39ba24393726cfc2188094bfdf74adcf62c"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_scoring.py",
+      "symbol": "official_points",
+      "original_file": "src/reevaluate_eeg_v47_harmonized_20260907.py",
+      "original_file_sha256": "4df97e5dacd0093570a5d9d3e641951301a3548c527b8818b707e8e10988ac70",
+      "original_first_line": 194,
+      "syntax_sha256": "27e7ca9c73ff362ff3a786484b9ab94fc6832653df62137d795515985c37a9f8"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_repair.py",
+      "symbol": "positive_support",
+      "original_file": "src/run_eeg_v47_causal_sequential_repair_20260909.py",
+      "original_file_sha256": "29407895aca7a73f0e6b1faae7c8725b01dd4dd157180b500b871c5b55f09b47",
+      "original_first_line": 166,
+      "syntax_sha256": "1c68f755b1bc0e350109614b32c071d7a0e34277dc18b1d5d6bd45cd8d43f2c2"
+    },
+    {
+      "public_module": "src/prime_eeg/baseline_repair.py",
+      "symbol": "make_repaired_payload",
+      "original_file": "src/run_eeg_v47_causal_sequential_repair_20260909.py",
+      "original_file_sha256": "29407895aca7a73f0e6b1faae7c8725b01dd4dd157180b500b871c5b55f09b47",
+      "original_first_line": 174,
+      "syntax_sha256": "eac593c8d567c413aed8f6bd59e45e3d95511d3375d484142c60dec1ff01e3e4"
+    }
+  ]
+}

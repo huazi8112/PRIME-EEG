@@ -1,0 +1,166 @@
+{
+  "subject": "chb18",
+  "window_seconds": 4,
+  "first_seizure_duration_seconds": 50,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb18_01",
+      "chb18_02",
+      "chb18_03",
+      "chb18_04",
+      "chb18_05",
+      "chb18_06",
+      "chb18_07",
+      "chb18_08",
+      "chb18_09",
+      "chb18_10",
+      "chb18_11",
+      "chb18_12",
+      "chb18_13",
+      "chb18_14",
+      "chb18_15",
+      "chb18_16",
+      "chb18_17",
+      "chb18_18",
+      "chb18_19",
+      "chb18_20",
+      "chb18_21",
+      "chb18_22",
+      "chb18_23",
+      "chb18_24",
+      "chb18_25",
+      "chb18_26"
+    ],
+    "calibration": [
+      "chb18_27",
+      "chb18_28"
+    ],
+    "evaluation": [
+      "chb18_33",
+      "chb18_34"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb18_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_08",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_09",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_10",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_11",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_12",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_13",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_14",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_15",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_16",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_17",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_18",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_19",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_20",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_21",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_22",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_23",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_24",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_25",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_26",
+      "role": "fit"
+    },
+    {
+      "record": "chb18_27",
+      "role": "calibration"
+    },
+    {
+      "record": "chb18_28",
+      "role": "calibration"
+    },
+    {
+      "record": "chb18_33",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb18_34",
+      "role": "evaluation"
+    }
+  ]
+}
