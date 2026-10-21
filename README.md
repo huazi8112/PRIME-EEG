@@ -4,8 +4,6 @@ Patient-referenced, confirmation-gated incremental exemplar memory for continuou
 
 This repository curates the **frozen implementation** used for the PRIME-EEG study. Package version `0.1.0` describes the software layout, not a new detector. The underlying method remains `v48-strict-causal-frozen`; no threshold tuning or new experiments are introduced by this release.
 
-[中文使用说明](docs/QUICKSTART_zh.md) · [Reproduction protocol](docs/REPRODUCIBILITY.md) · [Baseline comparison scope](docs/BASELINES.md)
-
 ## Scope
 
 The task starts **after the first independently confirmed seizure** in each recording stage. Pre-first-seizure non-seizure data establish a fixed patient reference. Later independent confirmations update reliable features, exemplar memory and calibration thresholds. Detector alarms never become training labels by themselves.
