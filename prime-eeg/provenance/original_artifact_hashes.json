@@ -1,0 +1,33 @@
+{
+  "original_protocol_canonical_sha256": "241ee946f5fa59f7038a328cec1b2be664627761a46130f4254593fca23e9ee4",
+  "files": [
+    {
+      "file": "results/eeg_v48_strict_causal/protocol_freeze.json",
+      "sha256": "5722791854bfa6bdce54889d70288541c6c1175a0961bd87772cc1ceb44d69a3"
+    },
+    {
+      "file": "results/eeg_v48_strict_causal/strict_causal_result.json",
+      "sha256": "1735aac20153f199c502c025a77b14a6524565362b97cf80225cfde615dc8f42"
+    },
+    {
+      "file": "results/eeg_v48_strict_causal/timing_subject_audit.json",
+      "sha256": "b2ae3fdba5f3bbd1b3ba09194c4af1a31b1f738377093df52b60f63dd2cdb8ac"
+    },
+    {
+      "file": "results/eeg_v48_strict_causal_ablations/strict_causal_ablations.json",
+      "sha256": "a166bd9cbf125cd9c07b0e5150c5cb68ce2cb75ebcc98ef06b4277ca16e5b20a"
+    },
+    {
+      "file": "results/eeg_v48_elapsed_time_delay_20260909/elapsed_time_delay_results.json",
+      "sha256": "a9791793eb8edf205cddfba174490d86313ae3b8f2e0bddec09c0ffd8aa0d8c9"
+    },
+    {
+      "file": "results/eeg_publication_protocol_audit_20260908/statistics_audit.json",
+      "sha256": "42ef6b7df33dc9d7a7b3193248144285541073861ceda5788882c3341de7664d"
+    },
+    {
+      "file": "results/eeg_v47_causal_sequential_repair_20260909/repaired_results.json",
+      "sha256": "af4659043bf46deb48a00516e4886c41389a80e1b2dc87ad3c3c907703480667"
+    }
+  ]
+}

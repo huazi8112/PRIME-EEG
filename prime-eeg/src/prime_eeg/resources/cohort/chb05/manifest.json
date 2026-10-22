@@ -1,0 +1,186 @@
+{
+  "subject": "chb05",
+  "window_seconds": 10,
+  "first_seizure_duration_seconds": 115,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb05_01",
+      "chb05_02",
+      "chb05_03",
+      "chb05_04"
+    ],
+    "calibration": [
+      "chb05_05"
+    ],
+    "evaluation": [
+      "chb05_07",
+      "chb05_08",
+      "chb05_09",
+      "chb05_10",
+      "chb05_11",
+      "chb05_12",
+      "chb05_14",
+      "chb05_15",
+      "chb05_18",
+      "chb05_19",
+      "chb05_20",
+      "chb05_21",
+      "chb05_23",
+      "chb05_24",
+      "chb05_25",
+      "chb05_26",
+      "chb05_27",
+      "chb05_28",
+      "chb05_29",
+      "chb05_30",
+      "chb05_31",
+      "chb05_32",
+      "chb05_33",
+      "chb05_34",
+      "chb05_35",
+      "chb05_36",
+      "chb05_37",
+      "chb05_38",
+      "chb05_39"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb05_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb05_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb05_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb05_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb05_05",
+      "role": "calibration"
+    },
+    {
+      "record": "chb05_07",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_08",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_09",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_10",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_11",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_12",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_14",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_15",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_18",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_19",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_20",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_21",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_23",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_24",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_25",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_26",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_27",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_28",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_29",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_30",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_31",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_32",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_33",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_34",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_35",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_36",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_37",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_38",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb05_39",
+      "role": "evaluation"
+    }
+  ]
+}

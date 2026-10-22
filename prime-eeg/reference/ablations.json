@@ -1,0 +1,4025 @@
+{
+  "full_v48": {
+    "result": {
+      "subjects": 21,
+      "detected": 118,
+      "total": 153,
+      "event_sensitivity": 0.7712418300653595,
+      "macro_patient_sensitivity": 0.8096964970170712,
+      "median_patient_sensitivity": 0.9358974358974359,
+      "patients_with_any_detection": 21,
+      "matched_predictions": 118,
+      "false_alarms": 289,
+      "monitoring_hours": 629.5227777777778,
+      "far_per_hour": 0.4590779082214834,
+      "event_precision": 0.28992628992628994,
+      "event_f1": 0.42142857142857143,
+      "median_latency_seconds": 14.5,
+      "cases": 22,
+      "independent_subjects": 21,
+      "macro_independent_subject_sensitivity": 0.8059254307374608,
+      "negative_latency_detections": 5
+    },
+    "patients": [
+      {
+        "dataset": "chbmit",
+        "subject": "chb01",
+        "independent_subject": "chb01+chb21",
+        "detected": 4,
+        "total": 6,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 4,
+        "false_alarms": 14,
+        "monitoring_hours": 37.361111111111114,
+        "far_per_hour": 0.37472118959107803,
+        "precision": 0.2222222222222222,
+        "latencies": [
+          14.0,
+          13.0,
+          8.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb01_04_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ],
+        "target_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb21",
+        "independent_subject": "chb01+chb21",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 3,
+        "monitoring_hours": 14.332222222222223,
+        "far_per_hour": 0.20931855182572293,
+        "precision": 0.5,
+        "latencies": [
+          3.0,
+          65.0,
+          9.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ],
+        "target_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb02",
+        "independent_subject": "chb02",
+        "detected": 1,
+        "total": 2,
+        "sensitivity": 0.5,
+        "matched_predictions": 1,
+        "false_alarms": 22,
+        "monitoring_hours": 20.03611111111111,
+        "far_per_hour": 1.0980174684597255,
+        "precision": 0.043478260869565216,
+        "latencies": [
+          38.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb02_16+_s1"
+        ],
+        "target_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb04",
+        "independent_subject": "chb04",
+        "detected": 2,
+        "total": 3,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 2,
+        "false_alarms": 25,
+        "monitoring_hours": 137.54888888888888,
+        "far_per_hour": 0.18175355833077533,
+        "precision": 0.07407407407407407,
+        "latencies": [
+          77.0,
+          54.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ],
+        "target_event_ids": [
+          "chb04_08_s1",
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb05",
+        "independent_subject": "chb05",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 11,
+        "monitoring_hours": 33.575,
+        "far_per_hour": 0.3276247207743857,
+        "precision": 0.26666666666666666,
+        "latencies": [
+          33.0,
+          34.0,
+          2.0,
+          29.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ],
+        "target_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb06",
+        "independent_subject": "chb06",
+        "detected": 7,
+        "total": 9,
+        "sensitivity": 0.7777777777777778,
+        "matched_predictions": 7,
+        "false_alarms": 21,
+        "monitoring_hours": 66.11,
+        "far_per_hour": 0.31765239751928603,
+        "precision": 0.25,
+        "latencies": [
+          9.0,
+          7.0,
+          7.0,
+          8.0,
+          7.0,
+          8.0,
+          9.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_24_s1"
+        ],
+        "target_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s1",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_18_s1",
+          "chb06_24_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb07",
+        "independent_subject": "chb07",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 2,
+        "monitoring_hours": 26.93611111111111,
+        "far_per_hour": 0.07424976796947509,
+        "precision": 0.5,
+        "latencies": [
+          32.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ],
+        "target_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb08",
+        "independent_subject": "chb08",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 16,
+        "monitoring_hours": 19.055555555555557,
+        "far_per_hour": 0.8396501457725947,
+        "precision": 0.2,
+        "latencies": [
+          34.0,
+          37.0,
+          32.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ],
+        "target_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb09",
+        "independent_subject": "chb09",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 46.10444444444445,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          17.0,
+          12.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ],
+        "target_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb10",
+        "independent_subject": "chb10",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 32.111111111111114,
+        "far_per_hour": 0.031141868512110725,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          6.0,
+          12.0,
+          11.0,
+          11.0,
+          9.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ],
+        "target_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb11",
+        "independent_subject": "chb11",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 7,
+        "monitoring_hours": 2.6866666666666665,
+        "far_per_hour": 2.6054590570719602,
+        "precision": 0.2222222222222222,
+        "latencies": [
+          -10.0,
+          5.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ],
+        "target_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb12",
+        "independent_subject": "chb12",
+        "detected": 34,
+        "total": 39,
+        "sensitivity": 0.8717948717948718,
+        "matched_predictions": 34,
+        "false_alarms": 31,
+        "monitoring_hours": 23.00777777777778,
+        "far_per_hour": 1.347370454435698,
+        "precision": 0.5230769230769231,
+        "latencies": [
+          12.0,
+          6.0,
+          14.0,
+          29.0,
+          32.0,
+          27.0,
+          16.0,
+          14.0,
+          23.0,
+          15.0,
+          15.0,
+          18.0,
+          -17.0,
+          7.0,
+          14.0,
+          18.0,
+          13.0,
+          15.0,
+          12.0,
+          14.0,
+          17.0,
+          12.0,
+          3.0,
+          1.0,
+          15.0,
+          13.0,
+          15.0,
+          10.0,
+          11.0,
+          15.0,
+          11.0,
+          15.0,
+          37.0,
+          7.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ],
+        "target_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s2",
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb13",
+        "independent_subject": "chb13",
+        "detected": 6,
+        "total": 11,
+        "sensitivity": 0.5454545454545454,
+        "matched_predictions": 6,
+        "false_alarms": 2,
+        "monitoring_hours": 16.267777777777777,
+        "far_per_hour": 0.12294242196571273,
+        "precision": 0.75,
+        "latencies": [
+          46.0,
+          33.0,
+          16.0,
+          54.0,
+          17.0,
+          14.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb13_21_s1",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s3"
+        ],
+        "target_event_ids": [
+          "chb13_21_s1",
+          "chb13_40_s1",
+          "chb13_40_s2",
+          "chb13_55_s1",
+          "chb13_55_s2",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s2",
+          "chb13_62_s3"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb14",
+        "independent_subject": "chb14",
+        "detected": 6,
+        "total": 7,
+        "sensitivity": 0.8571428571428571,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 23.252777777777776,
+        "far_per_hour": 0.04300561462190897,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          11.0,
+          9.0,
+          11.0,
+          9.0,
+          10.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ],
+        "target_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb15",
+        "independent_subject": "chb15",
+        "detected": 16,
+        "total": 19,
+        "sensitivity": 0.8421052631578947,
+        "matched_predictions": 16,
+        "false_alarms": 51,
+        "monitoring_hours": 34.611111111111114,
+        "far_per_hour": 1.4735152487961476,
+        "precision": 0.23880597014925373,
+        "latencies": [
+          16.0,
+          28.0,
+          39.0,
+          -8.0,
+          33.0,
+          30.0,
+          34.0,
+          26.0,
+          18.0,
+          29.0,
+          8.0,
+          21.0,
+          -13.0,
+          22.0,
+          17.0,
+          -18.0
+        ],
+        "negative_latency_detections": 3,
+        "detected_event_ids": [
+          "chb15_10_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ],
+        "target_event_ids": [
+          "chb15_10_s1",
+          "chb15_15_s1",
+          "chb15_17_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb16",
+        "independent_subject": "chb16",
+        "detected": 0,
+        "total": 9,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 3,
+        "monitoring_hours": 9.286111111111111,
+        "far_per_hour": 0.32306311696081363,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb16_11_s1",
+          "chb16_14_s1",
+          "chb16_16_s1",
+          "chb16_17_s1",
+          "chb16_17_s2",
+          "chb16_17_s3",
+          "chb16_17_s4",
+          "chb16_18_s1",
+          "chb16_18_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb17",
+        "independent_subject": "chb17",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 49,
+        "monitoring_hours": 20.177777777777777,
+        "far_per_hour": 2.4284140969162995,
+        "precision": 0.0392156862745098,
+        "latencies": [
+          14.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ],
+        "target_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb18",
+        "independent_subject": "chb18",
+        "detected": 4,
+        "total": 5,
+        "sensitivity": 0.8,
+        "matched_predictions": 4,
+        "false_alarms": 4,
+        "monitoring_hours": 6.588888888888889,
+        "far_per_hour": 0.6070826306913997,
+        "precision": 0.5,
+        "latencies": [
+          13.0,
+          93.0,
+          8.0,
+          24.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ],
+        "target_event_ids": [
+          "chb18_30_s1",
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb19",
+        "independent_subject": "chb19",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 0,
+        "monitoring_hours": 2.8055555555555554,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          36.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ],
+        "target_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb20",
+        "independent_subject": "chb20",
+        "detected": 2,
+        "total": 7,
+        "sensitivity": 0.2857142857142857,
+        "matched_predictions": 2,
+        "false_alarms": 1,
+        "monitoring_hours": 18.394444444444446,
+        "far_per_hour": 0.05436424041075204,
+        "precision": 0.6666666666666666,
+        "latencies": [
+          29.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb20_14_s1",
+          "chb20_15_s2"
+        ],
+        "target_event_ids": [
+          "chb20_13_s1",
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1",
+          "chb20_68_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb22",
+        "independent_subject": "chb22",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 6,
+        "monitoring_hours": 13.923333333333334,
+        "far_per_hour": 0.4309312903998085,
+        "precision": 0.25,
+        "latencies": [
+          13.0,
+          17.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ],
+        "target_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb23",
+        "independent_subject": "chb23",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 19,
+        "monitoring_hours": 25.35,
+        "far_per_hour": 0.7495069033530571,
+        "precision": 0.24,
+        "latencies": [
+          21.0,
+          15.0,
+          25.0,
+          10.0,
+          16.0,
+          5.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ],
+        "target_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ]
+      }
+    ]
+  },
+  "no_incremental_update": {
+    "result": {
+      "subjects": 21,
+      "detected": 61,
+      "total": 153,
+      "event_sensitivity": 0.39869281045751637,
+      "macro_patient_sensitivity": 0.651196570574561,
+      "median_patient_sensitivity": 0.8285714285714285,
+      "patients_with_any_detection": 20,
+      "matched_predictions": 61,
+      "false_alarms": 238,
+      "monitoring_hours": 629.5227777777778,
+      "far_per_hour": 0.3780641597118099,
+      "event_precision": 0.2040133779264214,
+      "event_f1": 0.2699115044247788,
+      "median_latency_seconds": 13.0,
+      "cases": 22,
+      "independent_subjects": 21,
+      "macro_independent_subject_sensitivity": 0.671623920496101,
+      "negative_latency_detections": 2
+    },
+    "patients": [
+      {
+        "dataset": "chbmit",
+        "subject": "chb01",
+        "independent_subject": "chb01+chb21",
+        "detected": 4,
+        "total": 6,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 4,
+        "false_alarms": 12,
+        "monitoring_hours": 37.361111111111114,
+        "far_per_hour": 0.3211895910780669,
+        "precision": 0.25,
+        "latencies": [
+          14.0,
+          13.0,
+          12.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb01_04_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ],
+        "target_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb21",
+        "independent_subject": "chb01+chb21",
+        "detected": 0,
+        "total": 3,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 0,
+        "monitoring_hours": 14.332222222222223,
+        "far_per_hour": 0.0,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb02",
+        "independent_subject": "chb02",
+        "detected": 1,
+        "total": 2,
+        "sensitivity": 0.5,
+        "matched_predictions": 1,
+        "false_alarms": 10,
+        "monitoring_hours": 20.03611111111111,
+        "far_per_hour": 0.4990988492998752,
+        "precision": 0.09090909090909091,
+        "latencies": [
+          38.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb02_16+_s1"
+        ],
+        "target_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb04",
+        "independent_subject": "chb04",
+        "detected": 1,
+        "total": 3,
+        "sensitivity": 0.3333333333333333,
+        "matched_predictions": 1,
+        "false_alarms": 61,
+        "monitoring_hours": 137.54888888888888,
+        "far_per_hour": 0.4434786823270918,
+        "precision": 0.016129032258064516,
+        "latencies": [
+          150.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb04_28_s2"
+        ],
+        "target_event_ids": [
+          "chb04_08_s1",
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb05",
+        "independent_subject": "chb05",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 21,
+        "monitoring_hours": 33.575,
+        "far_per_hour": 0.6254653760238272,
+        "precision": 0.16,
+        "latencies": [
+          33.0,
+          34.0,
+          42.0,
+          29.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ],
+        "target_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb06",
+        "independent_subject": "chb06",
+        "detected": 7,
+        "total": 9,
+        "sensitivity": 0.7777777777777778,
+        "matched_predictions": 7,
+        "false_alarms": 46,
+        "monitoring_hours": 66.11,
+        "far_per_hour": 0.6958100136136742,
+        "precision": 0.1320754716981132,
+        "latencies": [
+          9.0,
+          7.0,
+          7.0,
+          6.0,
+          7.0,
+          4.0,
+          7.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_24_s1"
+        ],
+        "target_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s1",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_18_s1",
+          "chb06_24_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb07",
+        "independent_subject": "chb07",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 3,
+        "monitoring_hours": 26.93611111111111,
+        "far_per_hour": 0.11137465195421264,
+        "precision": 0.4,
+        "latencies": [
+          32.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ],
+        "target_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb08",
+        "independent_subject": "chb08",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 18,
+        "monitoring_hours": 19.055555555555557,
+        "far_per_hour": 0.944606413994169,
+        "precision": 0.18181818181818182,
+        "latencies": [
+          34.0,
+          37.0,
+          32.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ],
+        "target_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb09",
+        "independent_subject": "chb09",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 46.10444444444445,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          13.0,
+          12.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ],
+        "target_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb10",
+        "independent_subject": "chb10",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 32.111111111111114,
+        "far_per_hour": 0.031141868512110725,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          6.0,
+          12.0,
+          7.0,
+          11.0,
+          9.0,
+          6.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ],
+        "target_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb11",
+        "independent_subject": "chb11",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 6,
+        "monitoring_hours": 2.6866666666666665,
+        "far_per_hour": 2.2332506203473947,
+        "precision": 0.25,
+        "latencies": [
+          -10.0,
+          5.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ],
+        "target_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb12",
+        "independent_subject": "chb12",
+        "detected": 1,
+        "total": 39,
+        "sensitivity": 0.02564102564102564,
+        "matched_predictions": 1,
+        "false_alarms": 3,
+        "monitoring_hours": 23.00777777777778,
+        "far_per_hour": 0.1303906891389385,
+        "precision": 0.25,
+        "latencies": [
+          21.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb12_42_s1"
+        ],
+        "target_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s2",
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb13",
+        "independent_subject": "chb13",
+        "detected": 1,
+        "total": 11,
+        "sensitivity": 0.09090909090909091,
+        "matched_predictions": 1,
+        "false_alarms": 1,
+        "monitoring_hours": 16.267777777777777,
+        "far_per_hour": 0.061471210982856364,
+        "precision": 0.5,
+        "latencies": [
+          46.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb13_21_s1"
+        ],
+        "target_event_ids": [
+          "chb13_21_s1",
+          "chb13_40_s1",
+          "chb13_40_s2",
+          "chb13_55_s1",
+          "chb13_55_s2",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s2",
+          "chb13_62_s3"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb14",
+        "independent_subject": "chb14",
+        "detected": 6,
+        "total": 7,
+        "sensitivity": 0.8571428571428571,
+        "matched_predictions": 6,
+        "false_alarms": 0,
+        "monitoring_hours": 23.252777777777776,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          9.0,
+          9.0,
+          9.0,
+          10.0,
+          9.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ],
+        "target_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb15",
+        "independent_subject": "chb15",
+        "detected": 1,
+        "total": 19,
+        "sensitivity": 0.05263157894736842,
+        "matched_predictions": 1,
+        "false_alarms": 4,
+        "monitoring_hours": 34.611111111111114,
+        "far_per_hour": 0.11556982343499196,
+        "precision": 0.2,
+        "latencies": [
+          18.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb15_10_s1"
+        ],
+        "target_event_ids": [
+          "chb15_10_s1",
+          "chb15_15_s1",
+          "chb15_17_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb16",
+        "independent_subject": "chb16",
+        "detected": 2,
+        "total": 9,
+        "sensitivity": 0.2222222222222222,
+        "matched_predictions": 2,
+        "false_alarms": 18,
+        "monitoring_hours": 9.286111111111111,
+        "far_per_hour": 1.9383787017648817,
+        "precision": 0.1,
+        "latencies": [
+          7.0,
+          -24.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb16_16_s1",
+          "chb16_18_s2"
+        ],
+        "target_event_ids": [
+          "chb16_11_s1",
+          "chb16_14_s1",
+          "chb16_16_s1",
+          "chb16_17_s1",
+          "chb16_17_s2",
+          "chb16_17_s3",
+          "chb16_17_s4",
+          "chb16_18_s1",
+          "chb16_18_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb17",
+        "independent_subject": "chb17",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 10,
+        "monitoring_hours": 20.177777777777777,
+        "far_per_hour": 0.4955947136563877,
+        "precision": 0.16666666666666666,
+        "latencies": [
+          14.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ],
+        "target_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb18",
+        "independent_subject": "chb18",
+        "detected": 4,
+        "total": 5,
+        "sensitivity": 0.8,
+        "matched_predictions": 4,
+        "false_alarms": 5,
+        "monitoring_hours": 6.588888888888889,
+        "far_per_hour": 0.7588532883642496,
+        "precision": 0.4444444444444444,
+        "latencies": [
+          9.0,
+          13.0,
+          16.0,
+          36.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ],
+        "target_event_ids": [
+          "chb18_30_s1",
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb19",
+        "independent_subject": "chb19",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 0,
+        "monitoring_hours": 2.8055555555555554,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          36.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ],
+        "target_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb20",
+        "independent_subject": "chb20",
+        "detected": 0,
+        "total": 7,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 0,
+        "monitoring_hours": 18.394444444444446,
+        "far_per_hour": 0.0,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb20_13_s1",
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1",
+          "chb20_68_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb22",
+        "independent_subject": "chb22",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 7,
+        "monitoring_hours": 13.923333333333334,
+        "far_per_hour": 0.5027531721331099,
+        "precision": 0.2222222222222222,
+        "latencies": [
+          17.0,
+          17.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ],
+        "target_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb23",
+        "independent_subject": "chb23",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 12,
+        "monitoring_hours": 25.35,
+        "far_per_hour": 0.47337278106508873,
+        "precision": 0.3333333333333333,
+        "latencies": [
+          21.0,
+          15.0,
+          25.0,
+          20.0,
+          16.0,
+          5.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ],
+        "target_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ]
+      }
+    ]
+  },
+  "physiology_only": {
+    "result": {
+      "subjects": 21,
+      "detected": 114,
+      "total": 153,
+      "event_sensitivity": 0.7450980392156863,
+      "macro_patient_sensitivity": 0.8217972351943643,
+      "median_patient_sensitivity": 1.0,
+      "patients_with_any_detection": 21,
+      "matched_predictions": 114,
+      "false_alarms": 283,
+      "monitoring_hours": 629.5227777777778,
+      "far_per_hour": 0.44954687898505125,
+      "event_precision": 0.2871536523929471,
+      "event_f1": 0.4145454545454545,
+      "median_latency_seconds": 15.0,
+      "cases": 22,
+      "independent_subjects": 21,
+      "macro_independent_subject_sensitivity": 0.8186023945422443,
+      "negative_latency_detections": 5
+    },
+    "patients": [
+      {
+        "dataset": "chbmit",
+        "subject": "chb01",
+        "independent_subject": "chb01+chb21",
+        "detected": 4,
+        "total": 6,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 4,
+        "false_alarms": 14,
+        "monitoring_hours": 37.361111111111114,
+        "far_per_hour": 0.37472118959107803,
+        "precision": 0.2222222222222222,
+        "latencies": [
+          14.0,
+          13.0,
+          8.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb01_04_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ],
+        "target_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb21",
+        "independent_subject": "chb01+chb21",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 4,
+        "monitoring_hours": 14.332222222222223,
+        "far_per_hour": 0.2790914024342972,
+        "precision": 0.42857142857142855,
+        "latencies": [
+          11.0,
+          29.0,
+          9.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ],
+        "target_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb02",
+        "independent_subject": "chb02",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 21,
+        "monitoring_hours": 20.03611111111111,
+        "far_per_hour": 1.048107583529738,
+        "precision": 0.08695652173913043,
+        "latencies": [
+          51.0,
+          28.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ],
+        "target_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb04",
+        "independent_subject": "chb04",
+        "detected": 2,
+        "total": 3,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 2,
+        "false_alarms": 35,
+        "monitoring_hours": 137.54888888888888,
+        "far_per_hour": 0.25445498166308544,
+        "precision": 0.05405405405405406,
+        "latencies": [
+          77.0,
+          54.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ],
+        "target_event_ids": [
+          "chb04_08_s1",
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb05",
+        "independent_subject": "chb05",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 11,
+        "monitoring_hours": 33.575,
+        "far_per_hour": 0.3276247207743857,
+        "precision": 0.26666666666666666,
+        "latencies": [
+          33.0,
+          34.0,
+          32.0,
+          29.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ],
+        "target_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb06",
+        "independent_subject": "chb06",
+        "detected": 7,
+        "total": 9,
+        "sensitivity": 0.7777777777777778,
+        "matched_predictions": 7,
+        "false_alarms": 17,
+        "monitoring_hours": 66.11,
+        "far_per_hour": 0.25714717894418393,
+        "precision": 0.2916666666666667,
+        "latencies": [
+          11.0,
+          7.0,
+          7.0,
+          8.0,
+          9.0,
+          4.0,
+          7.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_24_s1"
+        ],
+        "target_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s1",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_18_s1",
+          "chb06_24_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb07",
+        "independent_subject": "chb07",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 2,
+        "monitoring_hours": 26.93611111111111,
+        "far_per_hour": 0.07424976796947509,
+        "precision": 0.5,
+        "latencies": [
+          32.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ],
+        "target_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb08",
+        "independent_subject": "chb08",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 17,
+        "monitoring_hours": 19.055555555555557,
+        "far_per_hour": 0.8921282798833818,
+        "precision": 0.19047619047619047,
+        "latencies": [
+          34.0,
+          37.0,
+          32.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ],
+        "target_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb09",
+        "independent_subject": "chb09",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 46.10444444444445,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          17.0,
+          12.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ],
+        "target_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb10",
+        "independent_subject": "chb10",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 0,
+        "monitoring_hours": 32.111111111111114,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          6.0,
+          12.0,
+          11.0,
+          11.0,
+          9.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ],
+        "target_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb11",
+        "independent_subject": "chb11",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 4,
+        "monitoring_hours": 2.6866666666666665,
+        "far_per_hour": 1.488833746898263,
+        "precision": 0.3333333333333333,
+        "latencies": [
+          -10.0,
+          1.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ],
+        "target_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb12",
+        "independent_subject": "chb12",
+        "detected": 32,
+        "total": 39,
+        "sensitivity": 0.8205128205128205,
+        "matched_predictions": 32,
+        "false_alarms": 20,
+        "monitoring_hours": 23.00777777777778,
+        "far_per_hour": 0.8692712609262567,
+        "precision": 0.6153846153846154,
+        "latencies": [
+          12.0,
+          6.0,
+          14.0,
+          17.0,
+          27.0,
+          14.0,
+          23.0,
+          15.0,
+          15.0,
+          18.0,
+          11.0,
+          15.0,
+          14.0,
+          10.0,
+          15.0,
+          28.0,
+          14.0,
+          17.0,
+          12.0,
+          11.0,
+          -15.0,
+          15.0,
+          13.0,
+          15.0,
+          28.0,
+          10.0,
+          11.0,
+          15.0,
+          15.0,
+          15.0,
+          37.0,
+          7.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s2",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_36_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ],
+        "target_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s2",
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb13",
+        "independent_subject": "chb13",
+        "detected": 3,
+        "total": 11,
+        "sensitivity": 0.2727272727272727,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 16.267777777777777,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          38.0,
+          45.0,
+          16.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb13_21_s1",
+          "chb13_59_s1",
+          "chb13_62_s3"
+        ],
+        "target_event_ids": [
+          "chb13_21_s1",
+          "chb13_40_s1",
+          "chb13_40_s2",
+          "chb13_55_s1",
+          "chb13_55_s2",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s2",
+          "chb13_62_s3"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb14",
+        "independent_subject": "chb14",
+        "detected": 6,
+        "total": 7,
+        "sensitivity": 0.8571428571428571,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 23.252777777777776,
+        "far_per_hour": 0.04300561462190897,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          11.0,
+          9.0,
+          11.0,
+          9.0,
+          10.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ],
+        "target_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb15",
+        "independent_subject": "chb15",
+        "detected": 15,
+        "total": 19,
+        "sensitivity": 0.7894736842105263,
+        "matched_predictions": 15,
+        "false_alarms": 12,
+        "monitoring_hours": 34.611111111111114,
+        "far_per_hour": 0.3467094703049759,
+        "precision": 0.5555555555555556,
+        "latencies": [
+          16.0,
+          38.0,
+          39.0,
+          23.0,
+          30.0,
+          64.0,
+          12.0,
+          36.0,
+          129.0,
+          28.0,
+          21.0,
+          -3.0,
+          32.0,
+          -3.0,
+          -8.0
+        ],
+        "negative_latency_detections": 3,
+        "detected_event_ids": [
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_62_s1"
+        ],
+        "target_event_ids": [
+          "chb15_10_s1",
+          "chb15_15_s1",
+          "chb15_17_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb16",
+        "independent_subject": "chb16",
+        "detected": 0,
+        "total": 9,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 3,
+        "monitoring_hours": 9.286111111111111,
+        "far_per_hour": 0.32306311696081363,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb16_11_s1",
+          "chb16_14_s1",
+          "chb16_16_s1",
+          "chb16_17_s1",
+          "chb16_17_s2",
+          "chb16_17_s3",
+          "chb16_17_s4",
+          "chb16_18_s1",
+          "chb16_18_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb17",
+        "independent_subject": "chb17",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 91,
+        "monitoring_hours": 20.177777777777777,
+        "far_per_hour": 4.509911894273128,
+        "precision": 0.021505376344086023,
+        "latencies": [
+          74.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ],
+        "target_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb18",
+        "independent_subject": "chb18",
+        "detected": 4,
+        "total": 5,
+        "sensitivity": 0.8,
+        "matched_predictions": 4,
+        "false_alarms": 4,
+        "monitoring_hours": 6.588888888888889,
+        "far_per_hour": 0.6070826306913997,
+        "precision": 0.5,
+        "latencies": [
+          13.0,
+          25.0,
+          12.0,
+          28.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ],
+        "target_event_ids": [
+          "chb18_30_s1",
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb19",
+        "independent_subject": "chb19",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 0,
+        "monitoring_hours": 2.8055555555555554,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          36.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ],
+        "target_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb20",
+        "independent_subject": "chb20",
+        "detected": 3,
+        "total": 7,
+        "sensitivity": 0.42857142857142855,
+        "matched_predictions": 3,
+        "false_alarms": 1,
+        "monitoring_hours": 18.394444444444446,
+        "far_per_hour": 0.05436424041075204,
+        "precision": 0.75,
+        "latencies": [
+          29.0,
+          31.0,
+          24.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb20_13_s1",
+          "chb20_14_s1",
+          "chb20_15_s2"
+        ],
+        "target_event_ids": [
+          "chb20_13_s1",
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1",
+          "chb20_68_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb22",
+        "independent_subject": "chb22",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 8,
+        "monitoring_hours": 13.923333333333334,
+        "far_per_hour": 0.5745750538664113,
+        "precision": 0.2,
+        "latencies": [
+          13.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ],
+        "target_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb23",
+        "independent_subject": "chb23",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 18,
+        "monitoring_hours": 25.35,
+        "far_per_hour": 0.7100591715976331,
+        "precision": 0.25,
+        "latencies": [
+          21.0,
+          15.0,
+          25.0,
+          10.0,
+          16.0,
+          5.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ],
+        "target_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ]
+      }
+    ]
+  },
+  "geometry_only": {
+    "result": {
+      "subjects": 21,
+      "detected": 64,
+      "total": 153,
+      "event_sensitivity": 0.41830065359477125,
+      "macro_patient_sensitivity": 0.5196975007979793,
+      "median_patient_sensitivity": 0.5,
+      "patients_with_any_detection": 17,
+      "matched_predictions": 64,
+      "false_alarms": 249,
+      "monitoring_hours": 629.5227777777778,
+      "far_per_hour": 0.39553771331193555,
+      "event_precision": 0.20447284345047922,
+      "event_f1": 0.27467811158798283,
+      "median_latency_seconds": 25.0,
+      "cases": 22,
+      "independent_subjects": 21,
+      "macro_independent_subject_sensitivity": 0.5153444717354491,
+      "negative_latency_detections": 1
+    },
+    "patients": [
+      {
+        "dataset": "chbmit",
+        "subject": "chb01",
+        "independent_subject": "chb01+chb21",
+        "detected": 3,
+        "total": 6,
+        "sensitivity": 0.5,
+        "matched_predictions": 3,
+        "false_alarms": 1,
+        "monitoring_hours": 37.361111111111114,
+        "far_per_hour": 0.026765799256505574,
+        "precision": 0.75,
+        "latencies": [
+          14.0,
+          29.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb01_04_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ],
+        "target_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb21",
+        "independent_subject": "chb01+chb21",
+        "detected": 2,
+        "total": 3,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 2,
+        "false_alarms": 0,
+        "monitoring_hours": 14.332222222222223,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          7.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ],
+        "target_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb02",
+        "independent_subject": "chb02",
+        "detected": 0,
+        "total": 2,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 0,
+        "monitoring_hours": 20.03611111111111,
+        "far_per_hour": 0.0,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb04",
+        "independent_subject": "chb04",
+        "detected": 0,
+        "total": 3,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 44,
+        "monitoring_hours": 137.54888888888888,
+        "far_per_hour": 0.3198862626621646,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb04_08_s1",
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb05",
+        "independent_subject": "chb05",
+        "detected": 2,
+        "total": 4,
+        "sensitivity": 0.5,
+        "matched_predictions": 2,
+        "false_alarms": 12,
+        "monitoring_hours": 33.575,
+        "far_per_hour": 0.3574087862993298,
+        "precision": 0.14285714285714285,
+        "latencies": [
+          62.0,
+          19.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ],
+        "target_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb06",
+        "independent_subject": "chb06",
+        "detected": 1,
+        "total": 9,
+        "sensitivity": 0.1111111111111111,
+        "matched_predictions": 1,
+        "false_alarms": 1,
+        "monitoring_hours": 66.11,
+        "far_per_hour": 0.015126304643775526,
+        "precision": 0.5,
+        "latencies": [
+          15.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb06_01_s2"
+        ],
+        "target_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s1",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_18_s1",
+          "chb06_24_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb07",
+        "independent_subject": "chb07",
+        "detected": 0,
+        "total": 2,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 0,
+        "monitoring_hours": 26.93611111111111,
+        "far_per_hour": 0.0,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb08",
+        "independent_subject": "chb08",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 73,
+        "monitoring_hours": 19.055555555555557,
+        "far_per_hour": 3.830903790087463,
+        "precision": 0.05194805194805195,
+        "latencies": [
+          34.0,
+          27.0,
+          32.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ],
+        "target_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb09",
+        "independent_subject": "chb09",
+        "detected": 0,
+        "total": 3,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 13,
+        "monitoring_hours": 46.10444444444445,
+        "far_per_hour": 0.2819684773702222,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb10",
+        "independent_subject": "chb10",
+        "detected": 5,
+        "total": 6,
+        "sensitivity": 0.8333333333333334,
+        "matched_predictions": 5,
+        "false_alarms": 0,
+        "monitoring_hours": 32.111111111111114,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          10.0,
+          16.0,
+          11.0,
+          13.0,
+          58.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ],
+        "target_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb11",
+        "independent_subject": "chb11",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 1,
+        "monitoring_hours": 2.6866666666666665,
+        "far_per_hour": 0.37220843672456577,
+        "precision": 0.6666666666666666,
+        "latencies": [
+          10.0,
+          25.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ],
+        "target_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb12",
+        "independent_subject": "chb12",
+        "detected": 10,
+        "total": 39,
+        "sensitivity": 0.2564102564102564,
+        "matched_predictions": 10,
+        "false_alarms": 3,
+        "monitoring_hours": 23.00777777777778,
+        "far_per_hour": 0.1303906891389385,
+        "precision": 0.7692307692307693,
+        "latencies": [
+          10.0,
+          14.0,
+          35.0,
+          31.0,
+          29.0,
+          15.0,
+          13.0,
+          17.0,
+          -18.0,
+          15.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s3",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s3",
+          "chb12_29_s4",
+          "chb12_38_s4"
+        ],
+        "target_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s2",
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb13",
+        "independent_subject": "chb13",
+        "detected": 5,
+        "total": 11,
+        "sensitivity": 0.45454545454545453,
+        "matched_predictions": 5,
+        "false_alarms": 1,
+        "monitoring_hours": 16.267777777777777,
+        "far_per_hour": 0.061471210982856364,
+        "precision": 0.8333333333333334,
+        "latencies": [
+          46.0,
+          33.0,
+          32.0,
+          17.0,
+          14.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb13_21_s1",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_62_s1",
+          "chb13_62_s3"
+        ],
+        "target_event_ids": [
+          "chb13_21_s1",
+          "chb13_40_s1",
+          "chb13_40_s2",
+          "chb13_55_s1",
+          "chb13_55_s2",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s2",
+          "chb13_62_s3"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb14",
+        "independent_subject": "chb14",
+        "detected": 3,
+        "total": 7,
+        "sensitivity": 0.42857142857142855,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 23.252777777777776,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          11.0,
+          9.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb14_04_s2",
+          "chb14_11_s1",
+          "chb14_27_s1"
+        ],
+        "target_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb15",
+        "independent_subject": "chb15",
+        "detected": 7,
+        "total": 19,
+        "sensitivity": 0.3684210526315789,
+        "matched_predictions": 7,
+        "false_alarms": 25,
+        "monitoring_hours": 34.611111111111114,
+        "far_per_hour": 0.7223113964686998,
+        "precision": 0.21875,
+        "latencies": [
+          26.0,
+          59.0,
+          14.0,
+          28.0,
+          31.0,
+          22.0,
+          22.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s2",
+          "chb15_46_s1",
+          "chb15_52_s1",
+          "chb15_54_s3",
+          "chb15_54_s4"
+        ],
+        "target_event_ids": [
+          "chb15_10_s1",
+          "chb15_15_s1",
+          "chb15_17_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb16",
+        "independent_subject": "chb16",
+        "detected": 0,
+        "total": 9,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 0,
+        "monitoring_hours": 9.286111111111111,
+        "far_per_hour": 0.0,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb16_11_s1",
+          "chb16_14_s1",
+          "chb16_16_s1",
+          "chb16_17_s1",
+          "chb16_17_s2",
+          "chb16_17_s3",
+          "chb16_17_s4",
+          "chb16_18_s1",
+          "chb16_18_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb17",
+        "independent_subject": "chb17",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 70,
+        "monitoring_hours": 20.177777777777777,
+        "far_per_hour": 3.4691629955947136,
+        "precision": 0.027777777777777776,
+        "latencies": [
+          54.0,
+          25.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ],
+        "target_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb18",
+        "independent_subject": "chb18",
+        "detected": 3,
+        "total": 5,
+        "sensitivity": 0.6,
+        "matched_predictions": 3,
+        "false_alarms": 2,
+        "monitoring_hours": 6.588888888888889,
+        "far_per_hour": 0.30354131534569984,
+        "precision": 0.6,
+        "latencies": [
+          13.0,
+          36.0,
+          68.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ],
+        "target_event_ids": [
+          "chb18_30_s1",
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb19",
+        "independent_subject": "chb19",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 0,
+        "monitoring_hours": 2.8055555555555554,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          116.0,
+          111.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ],
+        "target_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb20",
+        "independent_subject": "chb20",
+        "detected": 5,
+        "total": 7,
+        "sensitivity": 0.7142857142857143,
+        "matched_predictions": 5,
+        "false_alarms": 0,
+        "monitoring_hours": 18.394444444444446,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          50.0,
+          29.0,
+          46.0,
+          31.0,
+          22.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1"
+        ],
+        "target_event_ids": [
+          "chb20_13_s1",
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1",
+          "chb20_68_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb22",
+        "independent_subject": "chb22",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 2,
+        "monitoring_hours": 13.923333333333334,
+        "far_per_hour": 0.14364376346660282,
+        "precision": 0.5,
+        "latencies": [
+          33.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ],
+        "target_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb23",
+        "independent_subject": "chb23",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 25.35,
+        "far_per_hour": 0.03944773175542406,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          21.0,
+          25.0,
+          25.0,
+          30.0,
+          26.0,
+          25.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ],
+        "target_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ]
+      }
+    ]
+  },
+  "no_low_threshold_hysteresis": {
+    "result": {
+      "subjects": 21,
+      "detected": 122,
+      "total": 153,
+      "event_sensitivity": 0.7973856209150327,
+      "macro_patient_sensitivity": 0.8499676293934667,
+      "median_patient_sensitivity": 1.0,
+      "patients_with_any_detection": 21,
+      "matched_predictions": 122,
+      "false_alarms": 554,
+      "monitoring_hours": 629.5227777777778,
+      "far_per_hour": 0.8800316994972381,
+      "event_precision": 0.1804733727810651,
+      "event_f1": 0.2943305186972256,
+      "median_latency_seconds": 14.0,
+      "cases": 22,
+      "independent_subjects": 21,
+      "macro_independent_subject_sensitivity": 0.8428232307931557,
+      "negative_latency_detections": 8
+    },
+    "patients": [
+      {
+        "dataset": "chbmit",
+        "subject": "chb01",
+        "independent_subject": "chb01+chb21",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 51,
+        "monitoring_hours": 37.361111111111114,
+        "far_per_hour": 1.3650557620817843,
+        "precision": 0.10526315789473684,
+        "latencies": [
+          14.0,
+          13.0,
+          -28.0,
+          8.0,
+          13.0,
+          -27.0
+        ],
+        "negative_latency_detections": 2,
+        "detected_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ],
+        "target_event_ids": [
+          "chb01_04_s1",
+          "chb01_15_s1",
+          "chb01_16_s1",
+          "chb01_18_s1",
+          "chb01_21_s1",
+          "chb01_26_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb21",
+        "independent_subject": "chb01+chb21",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 3,
+        "monitoring_hours": 14.332222222222223,
+        "far_per_hour": 0.20931855182572293,
+        "precision": 0.5,
+        "latencies": [
+          3.0,
+          65.0,
+          9.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ],
+        "target_event_ids": [
+          "chb21_20_s1",
+          "chb21_21_s1",
+          "chb21_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb02",
+        "independent_subject": "chb02",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 26,
+        "monitoring_hours": 20.03611111111111,
+        "far_per_hour": 1.2976570081796757,
+        "precision": 0.07142857142857142,
+        "latencies": [
+          -29.0,
+          38.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ],
+        "target_event_ids": [
+          "chb02_16+_s1",
+          "chb02_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb04",
+        "independent_subject": "chb04",
+        "detected": 2,
+        "total": 3,
+        "sensitivity": 0.6666666666666666,
+        "matched_predictions": 2,
+        "false_alarms": 24,
+        "monitoring_hours": 137.54888888888888,
+        "far_per_hour": 0.17448341599754433,
+        "precision": 0.07692307692307693,
+        "latencies": [
+          77.0,
+          54.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ],
+        "target_event_ids": [
+          "chb04_08_s1",
+          "chb04_28_s1",
+          "chb04_28_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb05",
+        "independent_subject": "chb05",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 12,
+        "monitoring_hours": 33.575,
+        "far_per_hour": 0.3574087862993298,
+        "precision": 0.25,
+        "latencies": [
+          33.0,
+          34.0,
+          2.0,
+          29.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ],
+        "target_event_ids": [
+          "chb05_13_s1",
+          "chb05_16_s1",
+          "chb05_17_s1",
+          "chb05_22_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb06",
+        "independent_subject": "chb06",
+        "detected": 7,
+        "total": 9,
+        "sensitivity": 0.7777777777777778,
+        "matched_predictions": 7,
+        "false_alarms": 77,
+        "monitoring_hours": 66.11,
+        "far_per_hour": 1.1647254575707155,
+        "precision": 0.08333333333333333,
+        "latencies": [
+          9.0,
+          7.0,
+          7.0,
+          8.0,
+          7.0,
+          8.0,
+          9.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_24_s1"
+        ],
+        "target_event_ids": [
+          "chb06_01_s2",
+          "chb06_01_s3",
+          "chb06_04_s1",
+          "chb06_04_s2",
+          "chb06_09_s1",
+          "chb06_10_s1",
+          "chb06_13_s1",
+          "chb06_18_s1",
+          "chb06_24_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb07",
+        "independent_subject": "chb07",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 14,
+        "monitoring_hours": 26.93611111111111,
+        "far_per_hour": 0.5197483757863257,
+        "precision": 0.125,
+        "latencies": [
+          32.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ],
+        "target_event_ids": [
+          "chb07_13_s1",
+          "chb07_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb08",
+        "independent_subject": "chb08",
+        "detected": 4,
+        "total": 4,
+        "sensitivity": 1.0,
+        "matched_predictions": 4,
+        "false_alarms": 132,
+        "monitoring_hours": 19.055555555555557,
+        "far_per_hour": 6.927113702623906,
+        "precision": 0.029411764705882353,
+        "latencies": [
+          34.0,
+          37.0,
+          32.0,
+          33.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ],
+        "target_event_ids": [
+          "chb08_05_s1",
+          "chb08_11_s1",
+          "chb08_13_s1",
+          "chb08_21_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb09",
+        "independent_subject": "chb09",
+        "detected": 3,
+        "total": 3,
+        "sensitivity": 1.0,
+        "matched_predictions": 3,
+        "false_alarms": 0,
+        "monitoring_hours": 46.10444444444445,
+        "far_per_hour": 0.0,
+        "precision": 1.0,
+        "latencies": [
+          17.0,
+          12.0,
+          13.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ],
+        "target_event_ids": [
+          "chb09_08_s1",
+          "chb09_08_s2",
+          "chb09_19_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb10",
+        "independent_subject": "chb10",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 3,
+        "monitoring_hours": 32.111111111111114,
+        "far_per_hour": 0.09342560553633217,
+        "precision": 0.6666666666666666,
+        "latencies": [
+          6.0,
+          12.0,
+          11.0,
+          11.0,
+          9.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ],
+        "target_event_ids": [
+          "chb10_20_s1",
+          "chb10_27_s1",
+          "chb10_30_s1",
+          "chb10_31_s1",
+          "chb10_38_s1",
+          "chb10_89_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb11",
+        "independent_subject": "chb11",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 13,
+        "monitoring_hours": 2.6866666666666665,
+        "far_per_hour": 4.838709677419355,
+        "precision": 0.13333333333333333,
+        "latencies": [
+          -10.0,
+          5.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ],
+        "target_event_ids": [
+          "chb11_92_s1",
+          "chb11_99_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb12",
+        "independent_subject": "chb12",
+        "detected": 34,
+        "total": 39,
+        "sensitivity": 0.8717948717948718,
+        "matched_predictions": 34,
+        "false_alarms": 39,
+        "monitoring_hours": 23.00777777777778,
+        "far_per_hour": 1.6950789588062007,
+        "precision": 0.4657534246575342,
+        "latencies": [
+          12.0,
+          6.0,
+          14.0,
+          29.0,
+          32.0,
+          27.0,
+          16.0,
+          14.0,
+          23.0,
+          15.0,
+          15.0,
+          18.0,
+          -17.0,
+          7.0,
+          14.0,
+          18.0,
+          13.0,
+          15.0,
+          12.0,
+          14.0,
+          17.0,
+          12.0,
+          3.0,
+          1.0,
+          15.0,
+          13.0,
+          15.0,
+          10.0,
+          11.0,
+          15.0,
+          11.0,
+          15.0,
+          37.0,
+          7.0
+        ],
+        "negative_latency_detections": 1,
+        "detected_event_ids": [
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ],
+        "target_event_ids": [
+          "chb12_06_s2",
+          "chb12_08_s1",
+          "chb12_08_s2",
+          "chb12_08_s3",
+          "chb12_08_s4",
+          "chb12_09_s1",
+          "chb12_09_s2",
+          "chb12_10_s1",
+          "chb12_10_s2",
+          "chb12_11_s1",
+          "chb12_23_s1",
+          "chb12_23_s2",
+          "chb12_23_s3",
+          "chb12_27_s1",
+          "chb12_27_s2",
+          "chb12_27_s3",
+          "chb12_27_s4",
+          "chb12_27_s5",
+          "chb12_27_s6",
+          "chb12_28_s1",
+          "chb12_29_s1",
+          "chb12_29_s2",
+          "chb12_29_s3",
+          "chb12_29_s4",
+          "chb12_29_s5",
+          "chb12_29_s6",
+          "chb12_33_s1",
+          "chb12_33_s2",
+          "chb12_36_s1",
+          "chb12_38_s1",
+          "chb12_38_s2",
+          "chb12_38_s3",
+          "chb12_38_s4",
+          "chb12_38_s5",
+          "chb12_42_s1",
+          "chb12_42_s2",
+          "chb12_42_s3",
+          "chb12_42_s4",
+          "chb12_42_s5"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb13",
+        "independent_subject": "chb13",
+        "detected": 6,
+        "total": 11,
+        "sensitivity": 0.5454545454545454,
+        "matched_predictions": 6,
+        "false_alarms": 2,
+        "monitoring_hours": 16.267777777777777,
+        "far_per_hour": 0.12294242196571273,
+        "precision": 0.75,
+        "latencies": [
+          46.0,
+          33.0,
+          16.0,
+          54.0,
+          17.0,
+          14.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb13_21_s1",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s3"
+        ],
+        "target_event_ids": [
+          "chb13_21_s1",
+          "chb13_40_s1",
+          "chb13_40_s2",
+          "chb13_55_s1",
+          "chb13_55_s2",
+          "chb13_58_s1",
+          "chb13_59_s1",
+          "chb13_60_s1",
+          "chb13_62_s1",
+          "chb13_62_s2",
+          "chb13_62_s3"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb14",
+        "independent_subject": "chb14",
+        "detected": 6,
+        "total": 7,
+        "sensitivity": 0.8571428571428571,
+        "matched_predictions": 6,
+        "false_alarms": 1,
+        "monitoring_hours": 23.252777777777776,
+        "far_per_hour": 0.04300561462190897,
+        "precision": 0.8571428571428571,
+        "latencies": [
+          11.0,
+          9.0,
+          11.0,
+          9.0,
+          10.0,
+          10.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ],
+        "target_event_ids": [
+          "chb14_04_s1",
+          "chb14_04_s2",
+          "chb14_06_s1",
+          "chb14_11_s1",
+          "chb14_17_s1",
+          "chb14_18_s1",
+          "chb14_27_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb15",
+        "independent_subject": "chb15",
+        "detected": 17,
+        "total": 19,
+        "sensitivity": 0.8947368421052632,
+        "matched_predictions": 17,
+        "false_alarms": 63,
+        "monitoring_hours": 34.611111111111114,
+        "far_per_hour": 1.8202247191011234,
+        "precision": 0.2125,
+        "latencies": [
+          16.0,
+          28.0,
+          39.0,
+          -8.0,
+          33.0,
+          30.0,
+          34.0,
+          12.0,
+          26.0,
+          18.0,
+          29.0,
+          8.0,
+          21.0,
+          -13.0,
+          22.0,
+          17.0,
+          -18.0
+        ],
+        "negative_latency_detections": 3,
+        "detected_event_ids": [
+          "chb15_10_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ],
+        "target_event_ids": [
+          "chb15_10_s1",
+          "chb15_15_s1",
+          "chb15_17_s1",
+          "chb15_20_s1",
+          "chb15_22_s1",
+          "chb15_28_s1",
+          "chb15_31_s1",
+          "chb15_40_s1",
+          "chb15_40_s2",
+          "chb15_40_s3",
+          "chb15_46_s1",
+          "chb15_49_s1",
+          "chb15_52_s1",
+          "chb15_54_s1",
+          "chb15_54_s2",
+          "chb15_54_s3",
+          "chb15_54_s4",
+          "chb15_54_s5",
+          "chb15_62_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb16",
+        "independent_subject": "chb16",
+        "detected": 0,
+        "total": 9,
+        "sensitivity": 0.0,
+        "matched_predictions": 0,
+        "false_alarms": 4,
+        "monitoring_hours": 9.286111111111111,
+        "far_per_hour": 0.43075082261441816,
+        "precision": 0.0,
+        "latencies": [],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [],
+        "target_event_ids": [
+          "chb16_11_s1",
+          "chb16_14_s1",
+          "chb16_16_s1",
+          "chb16_17_s1",
+          "chb16_17_s2",
+          "chb16_17_s3",
+          "chb16_17_s4",
+          "chb16_18_s1",
+          "chb16_18_s2"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb17",
+        "independent_subject": "chb17",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 45,
+        "monitoring_hours": 20.177777777777777,
+        "far_per_hour": 2.2301762114537445,
+        "precision": 0.0425531914893617,
+        "latencies": [
+          14.0,
+          35.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ],
+        "target_event_ids": [
+          "chb17a_04_s1",
+          "chb17b_63_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb18",
+        "independent_subject": "chb18",
+        "detected": 4,
+        "total": 5,
+        "sensitivity": 0.8,
+        "matched_predictions": 4,
+        "false_alarms": 5,
+        "monitoring_hours": 6.588888888888889,
+        "far_per_hour": 0.7588532883642496,
+        "precision": 0.4444444444444444,
+        "latencies": [
+          13.0,
+          93.0,
+          8.0,
+          24.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ],
+        "target_event_ids": [
+          "chb18_30_s1",
+          "chb18_31_s1",
+          "chb18_32_s1",
+          "chb18_35_s1",
+          "chb18_36_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb19",
+        "independent_subject": "chb19",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 1,
+        "monitoring_hours": 2.8055555555555554,
+        "far_per_hour": 0.3564356435643565,
+        "precision": 0.6666666666666666,
+        "latencies": [
+          36.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ],
+        "target_event_ids": [
+          "chb19_29_s1",
+          "chb19_30_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb20",
+        "independent_subject": "chb20",
+        "detected": 2,
+        "total": 7,
+        "sensitivity": 0.2857142857142857,
+        "matched_predictions": 2,
+        "false_alarms": 1,
+        "monitoring_hours": 18.394444444444446,
+        "far_per_hour": 0.05436424041075204,
+        "precision": 0.6666666666666666,
+        "latencies": [
+          29.0,
+          31.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb20_14_s1",
+          "chb20_15_s2"
+        ],
+        "target_event_ids": [
+          "chb20_13_s1",
+          "chb20_13_s2",
+          "chb20_14_s1",
+          "chb20_15_s1",
+          "chb20_15_s2",
+          "chb20_16_s1",
+          "chb20_68_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb22",
+        "independent_subject": "chb22",
+        "detected": 2,
+        "total": 2,
+        "sensitivity": 1.0,
+        "matched_predictions": 2,
+        "false_alarms": 7,
+        "monitoring_hours": 13.923333333333334,
+        "far_per_hour": 0.5027531721331099,
+        "precision": 0.2222222222222222,
+        "latencies": [
+          13.0,
+          17.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ],
+        "target_event_ids": [
+          "chb22_25_s1",
+          "chb22_38_s1"
+        ]
+      },
+      {
+        "dataset": "chbmit",
+        "subject": "chb23",
+        "independent_subject": "chb23",
+        "detected": 6,
+        "total": 6,
+        "sensitivity": 1.0,
+        "matched_predictions": 6,
+        "false_alarms": 31,
+        "monitoring_hours": 25.35,
+        "far_per_hour": 1.222879684418146,
+        "precision": 0.16216216216216217,
+        "latencies": [
+          21.0,
+          15.0,
+          25.0,
+          10.0,
+          16.0,
+          5.0
+        ],
+        "negative_latency_detections": 0,
+        "detected_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ],
+        "target_event_ids": [
+          "chb23_08_s1",
+          "chb23_08_s2",
+          "chb23_09_s1",
+          "chb23_09_s2",
+          "chb23_09_s3",
+          "chb23_09_s4"
+        ]
+      }
+    ]
+  }
+}

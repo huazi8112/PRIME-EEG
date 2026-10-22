@@ -1,0 +1,156 @@
+{
+  "subject": "chb22",
+  "window_seconds": 4,
+  "first_seizure_duration_seconds": 58,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb22_01",
+      "chb22_02",
+      "chb22_03",
+      "chb22_04",
+      "chb22_05",
+      "chb22_06",
+      "chb22_07",
+      "chb22_08",
+      "chb22_09",
+      "chb22_10",
+      "chb22_11",
+      "chb22_15",
+      "chb22_16",
+      "chb22_17"
+    ],
+    "calibration": [
+      "chb22_18",
+      "chb22_19"
+    ],
+    "evaluation": [
+      "chb22_21",
+      "chb22_22",
+      "chb22_23",
+      "chb22_24",
+      "chb22_26",
+      "chb22_27",
+      "chb22_28",
+      "chb22_29",
+      "chb22_30",
+      "chb22_51",
+      "chb22_54",
+      "chb22_77"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb22_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_08",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_09",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_10",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_11",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_15",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_16",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_17",
+      "role": "fit"
+    },
+    {
+      "record": "chb22_18",
+      "role": "calibration"
+    },
+    {
+      "record": "chb22_19",
+      "role": "calibration"
+    },
+    {
+      "record": "chb22_21",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_22",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_23",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_24",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_26",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_27",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_28",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_29",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_30",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_51",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_54",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb22_77",
+      "role": "evaluation"
+    }
+  ]
+}

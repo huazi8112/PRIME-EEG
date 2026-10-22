@@ -1,0 +1,116 @@
+{
+  "subject": "chb17",
+  "window_seconds": 10,
+  "first_seizure_duration_seconds": 90,
+  "normal_initialization_mode": "first_record_prefix_with_last_300s_excluded",
+  "normal_records": {
+    "fit": [
+      "chb17_prefix_fit"
+    ],
+    "calibration": [
+      "chb17_prefix_calibration"
+    ],
+    "evaluation": [
+      "chb17a_05",
+      "chb17a_06",
+      "chb17a_08",
+      "chb17b_57",
+      "chb17b_58",
+      "chb17b_59",
+      "chb17b_60",
+      "chb17b_67",
+      "chb17b_68",
+      "chb17b_69",
+      "chb17c_02",
+      "chb17c_03",
+      "chb17c_04",
+      "chb17c_05",
+      "chb17c_06",
+      "chb17c_07",
+      "chb17c_08",
+      "chb17c_13"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb17_prefix_fit",
+      "role": "fit"
+    },
+    {
+      "record": "chb17_prefix_calibration",
+      "role": "calibration"
+    },
+    {
+      "record": "chb17a_05",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17a_06",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17a_08",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_57",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_58",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_59",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_60",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_67",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_68",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17b_69",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_02",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_03",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_04",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_05",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_06",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_07",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_08",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb17c_13",
+      "role": "evaluation"
+    }
+  ]
+}

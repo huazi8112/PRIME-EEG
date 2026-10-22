@@ -1,0 +1,96 @@
+{
+  "subject": "chb07",
+  "window_seconds": 10,
+  "first_seizure_duration_seconds": 86,
+  "normal_initialization_mode": "all_earlier_seizure_free_edfs",
+  "normal_records": {
+    "fit": [
+      "chb07_01",
+      "chb07_02",
+      "chb07_03",
+      "chb07_04",
+      "chb07_05",
+      "chb07_06",
+      "chb07_07",
+      "chb07_08",
+      "chb07_09"
+    ],
+    "calibration": [
+      "chb07_10",
+      "chb07_11"
+    ],
+    "evaluation": [
+      "chb07_14",
+      "chb07_15",
+      "chb07_16",
+      "chb07_17",
+      "chb07_18"
+    ]
+  },
+  "normals": [
+    {
+      "record": "chb07_01",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_02",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_03",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_04",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_05",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_06",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_07",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_08",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_09",
+      "role": "fit"
+    },
+    {
+      "record": "chb07_10",
+      "role": "calibration"
+    },
+    {
+      "record": "chb07_11",
+      "role": "calibration"
+    },
+    {
+      "record": "chb07_14",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb07_15",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb07_16",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb07_17",
+      "role": "evaluation"
+    },
+    {
+      "record": "chb07_18",
+      "role": "evaluation"
+    }
+  ]
+}
