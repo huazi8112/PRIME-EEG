@@ -1,0 +1,41 @@
+# Environments / Python build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+# Data and regenerated artifacts: do not upload EEG or feature/score caches.
+/data/
+/datasets/
+/cache/
+/runs/
+/results/
+*.edf
+*.bdf
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+# Local credentials, editor state, temporary documents and logs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+~$*
+*.docx
+*.zip
